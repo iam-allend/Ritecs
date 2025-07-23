@@ -11,26 +11,26 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-0 mx-lg-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <a href="{{ route('home') }}" class="nav-item nav-link {{ ($title ?? '') === 'home' ? 'active' : '' }}">Home</a>
+                            <a href="{{ route('about') }}" class="nav-item nav-link {{ ($title ?? '') === 'about' ? 'active' : '' }}">About</a>
+                            <a href="service.html" class="nav-item nav-link ">Services</a>
+                            <a href="{{ route('home') }}" class="nav-item nav-link">Book</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Pages</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="feature.html" class="dropdown-item">Our Features</a>
-                                    <a href="team.html" class="dropdown-item">Our team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="FAQ.html" class="dropdown-item">FAQs</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Our Features</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Our team</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Testimonial</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">FAQs</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">404 Page</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="{{ route('contact') }}" class="nav-item nav-link {{ ($title ?? '') === 'contact' ? 'active' : '' }}">Contact</a>
                             <div class="nav-btn px-3">
                                 <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="#" class="btn btn-primary btn-login rounded-pill py-2 px-4 ms-3 flex-shrink-0">Login</a>
+                                <a href="#" class="btn btn-dark rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Login</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         </a>
                         <div class="d-flex flex-column ms-3">
                             <span>Call to Our Experts</span>
-                            <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: + 0123 456 7890</span></a>
+                            <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: +628 1390 920 585</span></a>
                         </div>
                     </div>
                 </nav>

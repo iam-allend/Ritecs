@@ -1,7 +1,7 @@
 /* CUSTOM CSS DEVELOPING */
 
 .btn-login{
-    background-color: var(--bs-darkblue) ;
+    background-color: var(--bs-darkblue) !important;
 }
 
 /* CUSTOM CSS DEVELOPING END*/
@@ -805,7 +805,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-darkblue);
+    background: #193763;
 }
 
 .footer .footer-item {

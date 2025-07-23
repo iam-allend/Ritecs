@@ -12,7 +12,7 @@
                                             <h3 class="text-white"><img width="120" src="{{ asset('assets/img/logo/logo-text-white.webp') }}" alt="Logo"> </h3>
                                             <!-- <img src="assets/img/logo.png" alt="Logo"> -->
                                         </a>
-                                        <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                                        <p class="text-white mb-4">Perkumpulan Riset dan Inovasi pada Teknologi Computer Science(Ritecs)</p>
                                         <div class="footer-btn d-flex">
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
@@ -38,29 +38,29 @@
                                         <div class="row g-3">
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="assets/img/instagram-footer-1.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="assets/img/buku.png" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="assets/img/instagram-footer-1.jpg" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="assets/img/buku.png" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                            <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="assets/img/instagram-footer-2.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="assets/img/buku1.png" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="assets/img/instagram-footer-2.jpg" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="assets/img/buku1.png" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
                                             <div class="col-4">
                                                 <div class="footer-instagram rounded">
-                                                    <img src="assets/img/instagram-footer-3.jpg" class="img-fluid w-100" alt="">
+                                                    <img src="assets/img/jurnal.png" class="img-fluid w-100 h-50" width="100" height="100" alt="">
                                                     <div class="footer-search-icon">
-                                                        <a href="assets/img/instagram-footer-3.jpg" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
+                                                        <a href="assets/img/jurnal.png" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
                                            </div>
-                                            <div class="col-4">
+                                            <!-- <div class="col-4">
                                                 <div class="footer-instagram rounded">
                                                     <img src="assets/img/instagram-footer-4.jpg" class="img-fluid w-100" alt="">
                                                     <div class="footer-search-icon">
@@ -83,7 +83,7 @@
                                                         <a href="assets/img/instagram-footer-6.jpg" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,9 @@
                                                 </div>
                                                 <div>
                                                     <h4 class="text-white">Address</h4>
-                                                    <p class="mb-0">123 Street New York.USA</p>
+                                                    <p class="mb-0">Jl. Sinar Rembulan, No. 151
+                                                        Semarang, 50273
+                                                        Jawa Tengah, Indonesia</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -111,7 +113,7 @@
                                                 </div>
                                                 <div>
                                                     <h4 class="text-white">Mail Us</h4>
-                                                    <p class="mb-0">info@example.com</p>
+                                                    <p class="mb-0">ritecs.publisher@gmail.com</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -122,7 +124,7 @@
                                                 </div>
                                                 <div>
                                                     <h4 class="text-white">Telephone</h4>
-                                                    <p class="mb-0">(+012) 3456 7890</p>
+                                                    <p class="mb-0"> +628 1390 920 585</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,7 +153,7 @@
                                 </div>
                                 <div class="d-flex flex-column ms-3 flex-shrink-0">
                                     <span>Call to Our Experts</span>
-                                    <a href="tel:+ 0123 456 7890"><span class="text-white">Free: + 0123 456 7890</span></a>
+                                    <a href="tel:+ 0123 456 7890"><span class="text-white">Free: +628 1390 920 585</span></a>
                                 </div>
                             </div>
                         </div>
