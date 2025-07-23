@@ -3,7 +3,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
                     <a href="#" class="navbar-brand p-0">
-                        <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> LifeSure</h1>
+                        <h1 class="text-primary mb-0"><img src="assets/img/logo/logo-text.webp" alt="Logo"></i></h1>
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -30,7 +30,7 @@
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                             <div class="nav-btn px-3">
                                 <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                                <a href="#" class="btn btn-primary btn-login rounded-pill py-2 px-4 ms-3 flex-shrink-0">Login</a>
                             </div>
                         </div>
                     </div>

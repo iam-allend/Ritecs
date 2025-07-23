@@ -28,6 +28,8 @@
 
         <!-- Template Stylesheet -->
         <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.webp">
+    
     </head>
 
     <body>
