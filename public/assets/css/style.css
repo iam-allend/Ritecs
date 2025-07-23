@@ -164,7 +164,7 @@
 .navbar-light .navbar-nav .nav-item.active .nav-link {
     color: var(--bs-primary);
     font-weight: 600;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 @media (max-width: 991px) {

@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>{{ ucfirst($title ?? 'Ritecs') }} - Ritecs</title>
+        <title>LifeSure - Life Insurance Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -52,7 +52,7 @@
                                 <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
                             </div>
                             <div class="ps-3">
-                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>ritecs.publisher@gmail.com</a>
+                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
                             </div>
                         </div>
                     </div>
