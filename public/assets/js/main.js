@@ -98,8 +98,6 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-
-
 })(jQuery);
 
  // Menunggu hingga seluruh dokumen HTML dimuat
@@ -159,7 +157,7 @@
                     let message = '';
                     switch (error.code) {
                         case error.PERMISSION_DENIED:
-                            message = "Anda menolak permintaan lokasi.";
+                            message = "Semarang";
                             break;
                         case error.POSITION_UNAVAILABLE:
                             message = "Informasi lokasi tidak tersedia.";
