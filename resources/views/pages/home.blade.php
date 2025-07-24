@@ -2,7 +2,6 @@
 
 @section('content')
 
-
         <!-- Carousel Start -->
         <div class="header-carousel owl-carousel">
             <div class="header-carousel-item bg-primary">

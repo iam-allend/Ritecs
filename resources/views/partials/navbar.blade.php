@@ -20,7 +20,7 @@
                                     <span class="dropdown-toggle">Publish</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{ route('home') }}" class="dropdown-item">Buku</a>
+                                    <a href="{{ route('buku') }}" class="dropdown-item">Buku</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Jurnal</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Penyuntingan Naskah</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Desain Gragis & Ilustrasi</a>

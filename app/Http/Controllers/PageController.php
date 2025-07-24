@@ -21,5 +21,10 @@ class PageController extends Controller
         return view('pages.contact', ['title' => 'contact']);
     }
 
+    public function buku()
+    {
+        return view('pages.buku', ['title' => 'buku']);
+    }
+
 
 }
