@@ -232,155 +232,6 @@
         </div>
         <!-- About End -->
 
-        <!-- Service Start -->
-        <div class="container-fluid service py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Layanan Unggulan</h4>
-                    <h1 class="display-4 mb-4">We Provide Best Services</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
-                                    <i class="fa fa-book fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="service-content p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Penerbitan Buku</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
-                                    <i class="fa fa-newspaper fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="service-content p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Penerbitan Jurnal</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="assets/img/naskah.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
-                                    <i class="fas fa-th-large fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="service-content p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Penyuntingan Naskah</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="assets/img/penerjemah.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
-                                    <i class="fas fa-language fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="service-content p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Penerjemah</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
-                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Services</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-
-        <!-- FAQs Start -->
-        <div class="container-fluid faq-section bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="h-100">
-                            <div class="mb-5">
-                                <h4 class="text-primary">Some Important FAQ's</h4>
-                                <h1 class="display-4 mb-0"> pertanyaan umum tentang layanan dan penerbitan di RITECS.</h1>
-                            </div>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Q: Apa itu RITECS??
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show active"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body rounded">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione fuga officia consequatur doloribus sed at eum dolor minima et.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Q: Apakah saya bisa menerbitkan buku sendiri di RITECS?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores debitis culpa excepturi? Iusto minima molestias repellat? Eligendi, distinctio similique!
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Q: Berapa biaya untuk menerbitkan buku di RITECS?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, laudantium officia. Architecto repudiandae illum repellat autem. Qui ipsum aliquid exercitationem.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <img src="assets/img/carousel-2.png" class="img-fluid w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FAQs End -->
 
         <!-- Blog Start -->
         <div class="container-fluid blog py-5">
@@ -457,7 +308,69 @@
             </div>
         </div>
         <!-- Blog End -->
-
+<!-- FAQs Start -->
+        <div class="container-fluid faq-section bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <div class="mb-5">
+                                <h4 class="text-primary">Some Important FAQ's</h4>
+                                <h1 class="display-4 mb-0"> pertanyaan umum tentang layanan dan penerbitan di RITECS.</h1>
+                            </div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Q: Apa itu RITECS??
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show active"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body rounded">
+                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione fuga officia consequatur doloribus sed at eum dolor minima et.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Q: Apakah saya bisa menerbitkan buku sendiri di RITECS?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores debitis culpa excepturi? Iusto minima molestias repellat? Eligendi, distinctio similique!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Q: Berapa biaya untuk menerbitkan buku di RITECS?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, laudantium officia. Architecto repudiandae illum repellat autem. Qui ipsum aliquid exercitationem.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <img src="assets/img/carousel-2.png" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQs End -->
         <!-- Team Start -->
         <div class="container-fluid team pb-5">
             <div class="container pb-5">

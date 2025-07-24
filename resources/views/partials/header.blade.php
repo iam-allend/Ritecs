@@ -49,7 +49,10 @@
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
                             <div class="border-end border-primary pe-3">
-                                <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                                <a href="#" id="find-location-btn" class="text-muted small">
+    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+    <span id="location-text">Find A Location</span>
+</a>
                             </div>
                             <div class="ps-3">
                                 <a href="ritecs.publisher@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>ritecs.publisher@gmail.com</a>
