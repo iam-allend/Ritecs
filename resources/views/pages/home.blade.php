@@ -237,7 +237,7 @@
         <div class="container-fluid service py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
+                    <h4 class="text-primary">Layanan Unggulan</h4>
                     <h1 class="display-4 mb-4">We Provide Best Services</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
@@ -246,14 +246,14 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="assets/img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-users fa-2x"></i>
+                                    <i class="fa fa-book fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
+                                    <a href="#" class="d-inline-block h4 mb-4">Penerbitan Buku</a>
                                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -263,14 +263,14 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="assets/img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-hospital fa-2x"></i>
+                                    <i class="fa fa-newspaper fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
+                                    <a href="#" class="d-inline-block h4 mb-4">Penerbitan Jurnal</a>
                                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -280,14 +280,14 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="assets/img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/naskah.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-car fa-2x"></i>
+                                    <i class="fas fa-th-large fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
+                                    <a href="#" class="d-inline-block h4 mb-4">Penyuntingan Naskah</a>
                                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -297,14 +297,14 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="assets/img/blog-4.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/penerjemah.jpg" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-home fa-2x"></i>
+                                    <i class="fas fa-language fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
+                                    <a href="#" class="d-inline-block h4 mb-4">Penerjemah</a>
                                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eum!</p>
                                     <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -387,8 +387,9 @@
         <div class="container-fluid blog py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">From Blog</h4>
+                    <h4 class="text-primary">Blog</h4>
                     <h1 class="display-4 mb-4">News And Updates</h1>
+                    <h3 class="display-4 mb-4">Book & Journal</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -396,16 +397,16 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="assets/img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/buku.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
-                                    <span>Business</span>
+                                    <span>Buku</span>
                                 </div>
                             </div>
                             <div class="blog-content p-4">
                                 <div class="blog-comment d-flex justify-content-between mb-3">
-                                    <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
+                                    <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                    
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
                                 <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
@@ -416,16 +417,16 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="assets/img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
-                                    <span>Business</span>
+                                    <span>Jurnal</span>
                                 </div>
                             </div>
                             <div class="blog-content p-4">
                                 <div class="blog-comment d-flex justify-content-between mb-3">
-                                    <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
+                                    <div class="small"><span class="fa fa-user text-primary"></span> Radit R.</div>
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                    
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                                 <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
@@ -436,16 +437,16 @@
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="assets/img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
-                                    <span>Business</span>
+                                    <span>Buku</span>
                                 </div>
                             </div>
                             <div class="blog-content p-4">
                                 <div class="blog-comment d-flex justify-content-between mb-3">
                                     <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                                   
                                 </div>
                                 <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                                 <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>

@@ -52,7 +52,7 @@
                                 <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
                             </div>
                             <div class="ps-3">
-                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                                <a href="ritecs.publisher@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>ritecs.publisher@gmail.com</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
                                 <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
-                            <div class="dropdown ms-3">
+                            <!-- <div class="dropdown ms-3">
                                 <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
                                 <div class="dropdown-menu rounded">
                                     <a href="#" class="dropdown-item">English</a>
@@ -73,7 +73,7 @@
                                     <a href="#" class="dropdown-item">Spanish</a>
                                     <a href="#" class="dropdown-item">Arabic</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
