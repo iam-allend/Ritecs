@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-book-open fa-3x"></i>
@@ -93,7 +93,7 @@
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-newspaper fa-3x"></i>
@@ -105,7 +105,7 @@
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-edit fa-3x"></i>
@@ -117,7 +117,7 @@
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-th-large fa-3x"></i>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="1s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="1s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-drafting-compass fa-3x"></i>
@@ -142,7 +142,7 @@
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="1.2s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-language fa-3x"></i>
@@ -232,7 +232,6 @@
         </div>
         <!-- About End -->
 
-
         <!-- Blog Start -->
         <div class="container-fluid blog py-5">
             <div class="container py-5">
@@ -244,30 +243,31 @@
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="assets/img/buku.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Buku</span>
                                 </div>
                             </div>
                             <div class="blog-content p-4">
                                 <div class="blog-comment d-flex justify-content-between mb-3">
-                                    <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
+                                    <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                    
+                                   
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
+                                <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                                 <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
                                 <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item">
+                        <div class="blog-item ">
                             <div class="blog-img">
-                                <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/jurnal.png" class="img-fluid rounded-start w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Jurnal</span>
                                 </div>
@@ -304,6 +304,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -371,8 +372,9 @@
             </div>
         </div>
         <!-- FAQs End -->
+
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
+        <div class="container-fluid team pb-5 pt-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Team</h4>
@@ -381,7 +383,7 @@
                     </p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
                                 <img src="assets/img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -398,7 +400,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="team-item">
                             <div class="team-img">
                                 <img src="assets/img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -415,7 +417,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-item">
                             <div class="team-img">
                                 <img src="assets/img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -432,7 +434,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="team-item">
                             <div class="team-img">
                                 <img src="assets/img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
