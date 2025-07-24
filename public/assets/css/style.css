@@ -3,6 +3,10 @@
 .btn-login{
     background-color: var(--bs-darkblue) !important;
 }
+.navbar-brand h1 img{
+    width: 85%;
+    margin-top: -5px;
+}
 
 /* CUSTOM CSS DEVELOPING END*/
 

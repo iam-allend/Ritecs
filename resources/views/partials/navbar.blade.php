@@ -3,7 +3,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
                     <a href="#" class="navbar-brand p-0">
-                        <h1 class="text-primary mb-0"><img src="assets/img/logo/logo-text.webp" alt="Logo"></i></h1>
+                        <h1 class="text-primary mb-0 "><img src="assets/img/logo/logo-text.webp" alt="Logo"></i></h1>
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -17,14 +17,14 @@
                             <a href="{{ route('home') }}" class="nav-item nav-link">Book</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                    <span class="dropdown-toggle">Pages</span>
+                                    <span class="dropdown-toggle">Publish</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{ route('home') }}" class="dropdown-item">Our Features</a>
-                                    <a href="{{ route('home') }}" class="dropdown-item">Our team</a>
-                                    <a href="{{ route('home') }}" class="dropdown-item">Testimonial</a>
-                                    <a href="{{ route('home') }}" class="dropdown-item">FAQs</a>
-                                    <a href="{{ route('home') }}" class="dropdown-item">404 Page</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Buku</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Jurnal</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Penyuntingan Naskah</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Desain Gragis & Ilustrasi</a>
+                                    <a href="{{ route('home') }}" class="dropdown-item">Translate & Proofreading</a>
                                 </div>
                             </div>
                             <a href="{{ route('contact') }}" class="nav-item nav-link {{ ($title ?? '') === 'contact' ? 'active' : '' }}">Contact</a>

@@ -148,7 +148,7 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-language fa-3x"></i>
                             </div>
-                            <h4 class="mb-4">Translate&Proofreading</h4>
+                            <h4 class="mb-4">Translate & Proofreading</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
                                 pariatur...
                             </p>
