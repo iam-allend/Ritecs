@@ -13,7 +13,7 @@
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="{{ route('home') }}" class="nav-item nav-link {{ ($title ?? '') === 'home' ? 'active' : '' }}">Home</a>
                             <a href="{{ route('about') }}" class="nav-item nav-link {{ ($title ?? '') === 'about' ? 'active' : '' }}">About</a>
-                            <a href="service.html" class="nav-item nav-link ">Services</a>
+                            <a href="{{ route('service') }}" class="nav-item nav-link {{ ($title ?? '') === 'service' ? 'active' : '' }} ">Services</a>
                             <a href="{{ route('home') }}" class="nav-item nav-link">Book</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
