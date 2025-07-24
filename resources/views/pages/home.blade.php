@@ -242,7 +242,7 @@
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -276,7 +276,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/naskah.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -293,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/penerjemah.jpg" class="img-fluid rounded-top w-100" alt="">
@@ -393,30 +393,69 @@
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    
+                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="assets/img/buku.png" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-categiry py-2 px-4">
-                                    <span>Buku</span>
+                            <div class="row">
+                                <div class="col-md-4 pe-0">
+                                    <div class="blog-img">
+                                        <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
+                                        <div class="blog-categiry py-2 px-4">
+                                            <span>Buku</span>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="blog-comment d-flex justify-content-between mb-3">
-                                    <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                    <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                    
+
+                                <div class="col-md-8 ps-0">
+                                    <div class="blog-content px-3 py-2 h-100 rounded-end">
+                                        <div class="blog-comment d-flex justify-content-between mb-3">
+                                            <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
+                                            <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
+                                            
+                                        </div>
+                                        <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
+                                        <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                        <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+                                    </div>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item">
+
+                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item ">
+                            <div class="row">
+                                <div class="col-md-4 pe-0">
+                                    <div class="blog-img">
+                                        <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
+                                        <div class="blog-categiry py-2 px-4">
+                                            <span>Buku</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 ps-0">
+                                    <div class="blog-content px-3 py-2 h-100 rounded-end">
+                                        <div class="blog-comment d-flex justify-content-between mb-3">
+                                            <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
+                                            <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
+                                            
+                                        </div>
+                                        <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
+                                        <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                                        <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item ">
                             <div class="blog-img">
-                                <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
+                                <img src="assets/img/jurnal.png" class="img-fluid rounded-start w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Jurnal</span>
                                 </div>
@@ -433,7 +472,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
                             <div class="blog-img">
                                 <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
