@@ -30,7 +30,7 @@
                             <a href="{{ route('contact') }}" class="nav-item nav-link {{ ($title ?? '') === 'contact' ? 'active' : '' }}">Contact</a>
                             <div class="nav-btn px-3">
                                 <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="#" class="btn btn-dark rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Login</a>
+                                <a href="#" class="btn btn-dark rounded-pill py-2 px-4 ms-3 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
                             </div>
                         </div>
                     </div>
@@ -69,3 +69,69 @@
             </div>
         </div>
         <!-- Modal Search End -->
+
+
+        <!-- Modal Login -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <h4 class="text-primary">Send Your Message</h4>
+                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                            <label for="phone">Your Phone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
+                                            <label for="project">Your Address</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
