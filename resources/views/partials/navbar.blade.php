@@ -14,7 +14,7 @@
                             <a href="{{ route('home') }}" class="nav-item nav-link {{ ($title ?? '') === 'home' ? 'active' : '' }}">Home</a>
                             <a href="{{ route('about') }}" class="nav-item nav-link {{ ($title ?? '') === 'about' ? 'active' : '' }}">About</a>
                             <a href="{{ route('service') }}" class="nav-item nav-link {{ ($title ?? '') === 'service' ? 'active' : '' }} ">Services</a>
-                            <a href="{{ route('home') }}" class="nav-item nav-link">Book</a>
+                            <!-- <a href="{{ route('home') }}" class="nav-item nav-link">Book</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Publish</span>
@@ -30,7 +30,8 @@
                             <a href="{{ route('contact') }}" class="nav-item nav-link {{ ($title ?? '') === 'contact' ? 'active' : '' }}">Contact</a>
                             <div class="nav-btn px-3">
                                 <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="#" class="btn btn-dark rounded-pill py-2 px-4 ms-3 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
+                                <a href="#" class="btn btn-dark btn-login-me rounded-pill py-2 px-4 ms-3 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#modalLogin">Masuk</a>
+                                <a href="#" class="btn btn-outline-dark outline-2 rounded-pill py-2 px-4 ms-2 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#modalRegister">Daftar</a>
                             </div>
                         </div>
                     </div>
@@ -72,65 +73,136 @@
 
 
         <!-- Modal Login -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="modalLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content bg-light">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+                <div class="modal-content bg-light border-0 rounded-3 p-2">
                     <div class="modal-body">
-                        <div>
-                            <h4 class="text-primary">Send Your Message</h4>
-                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        <div class="position-relative">
+                            
+                            <button type="button" class="btn-close position-absolute end-0 top-0 rounded-pill" data-bs-dismiss="modal" aria-label="Close"></button>
+                            
+                            <h4 class="text-dark">Masuk</h4>
+                            <p class="mb-4">Masuk dengan akun untuk mendapatkan akses ke semua fitur</p>
                             <form>
                                 <div class="row g-3">
-                                    <div class="col-lg-12 col-xl-6">
+                                    <div class="col-lg-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
-                                            <label for="phone">Your Phone</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
-                                            <label for="project">Your Address</label>
+                                            <input type="email" class="form-control border-0" id="email" placeholder="Email">
+                                            <label for="email">Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
+                                            <input type="password" class="form-control border-0" id="passowrd" placeholder="Passowrd">
+                                            <label for="passowrd">Passowrd</label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
 
-                                    </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                        <div class="row g-3">
+
+                                            <div class="col col-12">
+                                                <button class="btn btn-primary w-100 py-2 rounded-pill">Masuk</button>
+                                            </div>
+                                            <div class="col col-12">
+                                                <button type="button" class="btn btn-outline-primary w-100 py-2 rounded-pill">
+                                                    <i class="bi bi-google"></i> Masuk dengan Google
+                                                </button>
+                                            </div>
+                                            <div class="col col-12">
+                                                <button class="btn btn-dark w-100 py-2 rounded-pill" data-bs-dismiss="modal" aria-label="Close">Batal</button>
+                                            </div>
+
+                                        </div>
                                     </div>
+
+                                    <div class="col-12">
+                                        <div class="container text-center d-grid">
+                                            <a href="#" class="text-dark py-0 my-0 nav-link" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalRegister"><small>Belum Punya Akun</small> </a>
+                                            <a href="#" class="text-dark py-0 my-0 nav-link"><small>Lupa Password</small> </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Register -->
+        <div class="modal fade" id="modalRegister" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light border-0 rounded-3 p-2">
+                    <div class="modal-body">
+                        <div class="position-relative">
+                            
+                            <button type="button" class="btn-close position-absolute end-0 top-0 rounded-pill" data-bs-dismiss="modal" aria-label="Close"></button>
+                            
+                            <h4 class="text-dark">Buat Akun</h4>
+                            <p class="mb-4">Buat akun untuk mendapatkan akses ke semua fitur</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-lg-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="name" placeholder="Nama Lengkap">
+                                            <label for="name">Nama Lengkap</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control border-0" id="email" placeholder="Email">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="password" class="form-control border-0" id="passowrd" placeholder="Passowrd">
+                                            <label for="passowrd">Passowrd</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-floating">
+                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Nomor Telpon (+62 8.. ....)">
+                                            <label for="phone">Nomor Telpon</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
+                                            <label for="project">Alamat</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="row g-3">
+
+                                            <div class="col col-12">
+                                                <button class="btn btn-primary w-100 py-2 rounded-pill">Buat Akun</button>
+                                            </div>
+                                            <div class="col col-12">
+                                                <button type="button" class="btn btn-outline-primary w-100 py-2 rounded-pill">
+                                                    <i class="bi bi-google"></i> Buat akun dengan Google
+                                                </button>
+                                            </div>
+                                            <div class="col col-12">
+                                                <button class="btn btn-dark w-100 py-2 rounded-pill" data-bs-dismiss="modal" aria-label="Close">Batal</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="container text-center d-grid">
+                                            <a href="#" class="text-dark py-0 my-0 nav-link" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalLogin"><small>Sudah punya akun</small> </a>
+                                            <!-- <a href="#" class="text-dark py-0 my-0 nav-link"><small>Lupa Password</small> </a> -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
