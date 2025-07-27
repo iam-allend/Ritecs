@@ -8,6 +8,23 @@
     margin-top: -5px;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+}
+
+.normal-text{
+    color: var(--bs-gray);
+}
+
+.bg-warning-soft {
+    background-color: rgba(255, 193, 7, 0.25); /* warna warning dengan 25% opacity */
+}
+
+.bg-secondary-soft {
+    background-color: rgba(108, 117, 125, 0.25); /* warna secondary dengan 25% opacity */
+}
+
 /* CUSTOM CSS DEVELOPING END*/
 
 
@@ -356,6 +373,16 @@
         transform: translateX(-50%);
         margin-left: 45px;
     }
+
+    .blog .blog-item .blog-img {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
 }
 /*** Carousel Hero Header End ***/
 

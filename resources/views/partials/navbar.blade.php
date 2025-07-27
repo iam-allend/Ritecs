@@ -13,14 +13,14 @@
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="{{ route('home') }}" class="nav-item nav-link {{ ($title ?? '') === 'home' ? 'active' : '' }}">Home</a>
                             <a href="{{ route('about') }}" class="nav-item nav-link {{ ($title ?? '') === 'about' ? 'active' : '' }}">About</a>
-                            <a href="{{ route('service') }}" class="nav-item nav-link {{ ($title ?? '') === 'service' ? 'active' : '' }} ">Services</a>
+                            <a href="{{ route('service') }}" class="nav-item nav-link {{ ($title ?? '') === 'service' ? 'active' : '' }}">Services</a>
                             <!-- <a href="{{ route('home') }}" class="nav-item nav-link">Book</a> -->
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <a href="#" class="nav-item nav-link {{ in_array($title ?? '', ['Buku', 'Jurnal', 'Detail Buku']) ? 'active' : '' }}" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Publish</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{ route('buku') }}" class="dropdown-item">Buku</a>
+                                    <a href="{{ route('buku') }}" class="dropdown-item {{ in_array($title ?? '', ['Buku', 'Jurnal', 'Detail Buku']) ? 'active' : '' }}">Buku</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Jurnal</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Penyuntingan Naskah</a>
                                     <a href="{{ route('home') }}" class="dropdown-item">Desain Gragis & Ilustrasi</a>

@@ -17,151 +17,60 @@
             </div>
             <div class="row g-4 justify-content-start">
                 
-                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="row">
-                            <div class="col-md-4 pe-0">
-                                <div class="blog-img">
-                                    <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
+                <div class="col-lg-6 col-xl-6 col-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <div class="blog-img position-relative h-100">
+                                    <img src="assets/img/buku.png" class="img-fluid w-100 h-100 object-fit-cover rounded-start" alt="">
                                     <div class="blog-categiry py-2 px-4">
-                                        <span>Buku</span>
+                                        <span>Ekonomi & Bisnis</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-8 ps-0">
-                                <div class="blog-content px-3 py-2 h-100 rounded-end">
-                                    <div class="blog-comment d-flex justify-content-between mb-3">
-                                        <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                        <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                        
+                            <div class="col-md-8 col-12">
+                                <div class="blog-content px-3 py-2 h-100 rounded-end bg-light">
+                                    <div class="blog-comment d-flex justify-content-between mb-3 flex-wrap small">
+                                        <div><span class="fa fa-user text-primary"></span> Arry Maulana Syarif</div>
+                                        <div><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                                     </div>
-                                    <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                    <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+                                    <a href="#" class="h4 d-inline-block mb-2">Pengantar Pipeline Animasi Berbasis AI</a>
+                                    <p class="mb-2">Adalah buku panduan praktis dan konseptual yang menyajikan gambaran menyeluruh tentang bagaimana teknologi kecerdasan buatan (AI)...</p>
+                                    <a href="{{ ('detail-buku') }}" class="nav-item nav-link text-dark p-0">Lihat Detail <i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item ">
-                        <div class="row">
-                            <div class="col-md-4 pe-0">
-                                <div class="blog-img">
-                                    <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
+
+                <div class="col-lg-6 col-xl-6 col-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                                <div class="blog-img position-relative h-100">
+                                    <img src="{{ ('assets/img/buku.png') }}" class="img-fluid w-100 h-100 object-fit-cover rounded-start" alt="">
                                     <div class="blog-categiry py-2 px-4">
-                                        <span>Buku</span>
+                                        <span>Ekonomi & Bisnis</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-8 ps-0">
-                                <div class="blog-content px-3 py-2 h-100 rounded-end">
-                                    <div class="blog-comment d-flex justify-content-between mb-3">
-                                        <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                        <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                        
+                            <div class="col-md-8 col-12">
+                                <div class="blog-content px-3 py-2 h-100 rounded-end bg-light">
+                                    <div class="blog-comment d-flex justify-content-between mb-3 flex-wrap small">
+                                        <div><span class="fa fa-user text-primary"></span> Arry Maulana Syarif</div>
+                                        <div><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                                     </div>
-                                    <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                    <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+                                    <a href="#" class="h4 d-inline-block mb-2">Pengantar Pipeline Animasi Berbasis AI</a>
+                                    <p class="mb-2">Adalah buku panduan praktis dan konseptual yang menyajikan gambaran menyeluruh tentang bagaimana teknologi kecerdasan buatan (AI)...</p>
+                                    <a href="{{ ('detail-buku') }}" class="nav-item nav-link text-dark p-0">Lihat Detail <i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="row">
-                            <div class="col-md-4 pe-0">
-                                <div class="blog-img">
-                                    <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
-                                    <div class="blog-categiry py-2 px-4">
-                                        <span>Buku</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-8 ps-0">
-                                <div class="blog-content px-3 py-2 h-100 rounded-end">
-                                    <div class="blog-comment d-flex justify-content-between mb-3">
-                                        <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                        <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                        
-                                    </div>
-                                    <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                    <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item ">
-                        <div class="row">
-                            <div class="col-md-4 pe-0">
-                                <div class="blog-img">
-                                    <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
-                                    <div class="blog-categiry py-2 px-4">
-                                        <span>Buku</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-8 ps-0">
-                                <div class="blog-content px-3 py-2 h-100 rounded-end">
-                                    <div class="blog-comment d-flex justify-content-between mb-3">
-                                        <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                        <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                        
-                                    </div>
-                                    <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                    <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item ">
-                        <div class="row">
-                            <div class="col-md-4 pe-0">
-                                <div class="blog-img">
-                                    <img src="assets/img/buku.png" class="rounded-start" style="min-height: 100% !important;" alt="">
-                                    <div class="blog-categiry py-2 px-4">
-                                        <span>Buku</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-8 ps-0">
-                                <div class="blog-content px-3 py-2 h-100 rounded-end">
-                                    <div class="blog-comment d-flex justify-content-between mb-3">
-                                        <div class="small"><span class="fa fa-user text-primary"></span> Santoso I</div>
-                                        <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                        
-                                    </div>
-                                    <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                                    <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
-                                    <a href="#" class="btn p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                
+                </div>             
 
 
             </div>

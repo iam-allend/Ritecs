@@ -13,4 +13,5 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/buku', [PageController::class, 'buku'])->name('buku');
 Route::get('/service', [PageController::class, 'service'])->name('service');
+Route::get('/detail-buku', [PageController::class, 'detailBuku'])->name('detailBuku');
 
