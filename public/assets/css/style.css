@@ -526,7 +526,7 @@
     bottom: 0;
     right: 25px;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
     background: var(--bs-light);
     display: flex;
     align-items: center;

@@ -246,7 +246,7 @@
 
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
-                            <div class="blog-img">
+                            <div class="blog-img rounded-top">
                                 <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Buku</span>
@@ -266,7 +266,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-item ">
-                            <div class="blog-img">
+                            <div class="blog-img rounded-top">
                                 <img src="assets/img/jurnal.png" class="img-fluid rounded-start w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Jurnal</span>
@@ -286,7 +286,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-item">
-                            <div class="blog-img">
+                            <div class="blog-img rounded-top">
                                 <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
                                 <div class="blog-categiry py-2 px-4">
                                     <span>Buku</span>

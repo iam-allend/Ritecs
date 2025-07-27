@@ -16,10 +16,10 @@ class PageController extends Controller
         return view('pages.about', ['title' => 'About']);
     }
 
-    public function contact()
-    {
-        return view('pages.contact', ['title' => 'Contact']);
-    }
+    // public function contact()
+    // {
+    //     return view('pages.contact', ['title' => 'Contact']);
+    // }
 
     public function buku()
     {

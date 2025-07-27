@@ -9,7 +9,8 @@ class ContactController extends Controller
 {
     public function contact()
     {
-        return view('pages.contact'); // Sesuaikan dengan nama file blade Anda
+        return view('pages.contact', ['title' => 'Contact']); // Sesuaikan dengan nama file blade Anda
+
     }
     public function store(Request $request)
     {
