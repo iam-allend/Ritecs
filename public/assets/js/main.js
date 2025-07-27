@@ -100,19 +100,17 @@
     });
 })(jQuery);
 
- // Menunggu hingga seluruh dokumen HTML dimuat
+        //    Lokasi
             document.addEventListener('DOMContentLoaded', function() {
-                
-                // Ambil elemen tombol dan elemen teks berdasarkan ID
                 const findLocationBtn = document.getElementById('find-location-btn');
                 const locationText = document.getElementById('location-text');
 
-                // Tambahkan event listener untuk 'klik' pada tombol
+               
                 findLocationBtn.addEventListener('click', function(event) {
-                    // Mencegah link berpindah halaman
+                   
                     event.preventDefault();
 
-                    // Periksa apakah browser mendukung Geolocation
+                  
                     if (navigator.geolocation) {
                         locationText.textContent = 'Mencari lokasi...'; // Beri tahu user proses sedang berjalan
 
