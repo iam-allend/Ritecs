@@ -112,8 +112,8 @@
                     
                     <div class="auth-panel auth-panel-front">
                         <div class="row g-0">
-                            <div class="col-md-6 d-none d-md-block bg-login-image"></div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                            <div class="col-lg-6">
                                 <div class="modal-body p-4 p-sm-5">
                                     <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
                                     <div class="text-center mb-4">
@@ -156,7 +156,7 @@
 
                     <div class="auth-panel auth-panel-back">
                         <div class="row g-0">
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="modal-body p-4 p-sm-5">
                                     <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
                                     <div class="text-center mb-4">
@@ -177,6 +177,14 @@
                                             <input type="password" class="form-control" placeholder="Buat Password">
                                             <label>Buat Password</label>
                                         </div>
+                                        <!-- <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" placeholder="Nomor Telepon">
+                                            <label>Nomor Telepon</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" placeholder="Alamat">
+                                            <label>Alamat</label>
+                                        </div> -->
                                         <div class="d-grid mb-3">
                                             <button type="submit" class="btn btn-primary btn-lg rounded-pill fw-bold">Daftar</button>
                                         </div>
@@ -198,7 +206,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 d-none d-md-block bg-register-image"></div>
+                            <div class="col-md-6 d-none d-lg-block bg-register-image"></div>
                         </div>
                     </div>
 
