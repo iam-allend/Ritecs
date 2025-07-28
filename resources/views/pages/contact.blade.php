@@ -31,16 +31,16 @@
                         <div>
                             <h4 class="text-primary">Send Your Message</h4>
                             
-                            {{-- Notifikasi Sukses --}}
+                            
                             @if(session('success'))
                                 <div class="alert alert-success mt-3">
                                     {{ session('success') }}
                                 </div>
                             @endif
                             
-                            {{-- FORMULIR FUNGSIONAL DIMULAI DI SINI --}}
+                            {{-- FORMULIR start --}}
                             <form method="POST" action="{{ route('contact.store') }}" class="mt-4">
-                                @csrf  {{-- Token Keamanan Laravel --}}
+                                @csrf  
                                 <div class="row g-3">
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
@@ -89,7 +89,7 @@
                                     </div>
                                 </div>
                             </form>
-                            {{-- FORMULIR FUNGSIONAL SELESAI --}}
+                            {{-- FORMULIR end --}}
 
                         </div>
                     </div>

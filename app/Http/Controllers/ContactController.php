@@ -9,11 +9,11 @@ class ContactController extends Controller
 {
     public function contact()
     {
-        return view('pages.contact'); // Sesuaikan dengan nama file blade Anda
+        return view('pages.contact'); 
     }
     public function store(Request $request)
     {
-        // 1. Validasi Input
+        
         $request->validate([
             'name'    => 'required|string|max:255',
             'email'   => 'required|email|max:255',
@@ -23,7 +23,7 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
 
-        // 2. Simpan data ke database
+       
         $contact = new Contact();
         $contact->name = $request->name;
         $contact->email = $request->email;
@@ -33,7 +33,7 @@ class ContactController extends Controller
         $contact->message = $request->message;
         $contact->save();
 
-        // 3. Redirect kembali dengan pesan sukses
+       
         return redirect()->route('contact')->with('success', 'Pesan Anda telah berhasil dikirim!');
     }
 }
