@@ -41,7 +41,7 @@
                             <span class="dropdown-toggle">Bantuan</span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="{{ route('home') }}"
+                            <a href="{{ route('petunjuk-penulis') }}"
                                 class="dropdown-item {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}">Petunjuk
                                 Penulis</a>
                             <a href="{{ route('home') }}"
