@@ -8,9 +8,10 @@ use App\Models\Contact; // Import model Contact
 class ContactController extends Controller
 {
     public function contact()
-    {
-        return view('pages.contact'); 
-    }
+{
+    return view('pages.contact', ['title' => 'Contact']);
+}
+
     public function store(Request $request)
     {
         

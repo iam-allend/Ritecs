@@ -23,11 +23,11 @@
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
+                                <div class="service-icon p-3 end-0 rounded-bottom-0">
                                     <i class="fa fa-book fa-2x"></i>
                                 </div>
                             </div>
@@ -40,11 +40,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/5156460_2701004.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
+                                <div class="service-icon p-3 end-0 rounded-bottom-0">
                                     <i class="fa fa-newspaper fa-2x"></i>
                                 </div>
                             </div>
@@ -57,11 +57,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/naskah.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
+                                <div class="service-icon p-3 end-0 rounded-bottom-0">
                                     <i class="fas fa-th-large fa-2x"></i>
                                 </div>
                             </div>
@@ -74,11 +74,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="assets/img/penerjemah.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
+                                <div class="service-icon p-3 end-0 rounded-bottom-0">
                                     <i class="fas fa-language fa-2x"></i>
                                 </div>
                             </div>
