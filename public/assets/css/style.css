@@ -25,6 +25,61 @@
     background-color: rgba(108, 117, 125, 0.25); /* warna secondary dengan 25% opacity */
 }
 
+
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  }
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 20px;
+  width: 2px;
+  height: calc(100% - 20px);
+  background: var(--bs-dark);
+}
+
+.timeline-item:last-child::after {
+  content: '';
+  position: absolute;
+  left: 8px; /* sejajarkan dengan garis utama */
+  top: 29px;
+  width: 4px;
+  height: calc(100% - 20px); /* jarak garis berhenti sebelum habis */
+  background: var(--bs-light); /* sama dengan background atau transparent */
+}
+
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 3px;
+  top: 15px;
+  width: 14px;
+  height: 14px;
+  background: var(--bs-dark);
+  border-radius: 50%;
+}
+
+.timeline-content {
+  background: #fff;
+  padding: 10px 15px;
+  margin-left: 29px;
+}
+
+.img-petunjuk {
+    max-width: 100%;
+    max-height: 400px; /* Batasi tinggi gambar */
+    object-fit: contain; /* Atur agar gambar tidak terpotong */
+    margin: auto; /* Tengah secara horizontal */
+    display: block;
+}
 /* CUSTOM CSS DEVELOPING END*/
 
 
@@ -355,6 +410,14 @@
     }
 }
 
+@media (min-width: 768px) {
+    .img-petunjuk {
+        max-height: 100%; /* Di layar lebar, biarkan menyesuaikan kolom */
+        top: -100px;
+        position: relative;
+    }
+}
+
 @media (max-width: 767px) {
     .header-carousel .header-carousel-item {
         height: 950px;
@@ -383,6 +446,11 @@
         overflow: hidden;
     }
 
+    .img-petunjuk {
+        margin-bottom: 20px; /* Tambahkan jarak dari timeline di bawahnya */
+        top: 0px;
+        position: relative;
+    }
 }
 /*** Carousel Hero Header End ***/
 

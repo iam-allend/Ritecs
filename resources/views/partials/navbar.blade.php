@@ -33,7 +33,7 @@
                                     <span class="dropdown-toggle">Bantuan</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{ route('home') }}" class="dropdown-item {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}">Petunjuk Penulis</a>
+                                    <a href="{{ route('petunjuk-penulis') }}" class="dropdown-item {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}">Petunjuk Penulis</a>
                                     <a href="{{ route('home') }}" class="dropdown-item {{ ($title ?? '') === 'IRCS Journal' ? 'active' : '' }}">IRCS Jurnal</a>
                                     <a href="{{ route('contact') }}" class="dropdown-item {{ ($title ?? '') === 'Contact' ? 'active' : '' }}">Kontak</a>
                                 </div>

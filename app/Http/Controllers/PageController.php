@@ -35,5 +35,9 @@ class PageController extends Controller
         return view('pages.detail-buku', ['title' => 'Detail Buku']);
     }
 
+    public function petunjukPenulis()
+    {
+        return view('pages.petunjuk-penulis', ['title' => 'Petunjuk Penulis']);
+    }
 
 }
