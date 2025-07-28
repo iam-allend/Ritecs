@@ -184,7 +184,7 @@
     background-color: var(--bs-light);
     outline: 1px solid var(--bs-dark);
 }
-
+/* login */
 @keyframes shake {
   10%, 90% {
     transform: translateX(-1px);
