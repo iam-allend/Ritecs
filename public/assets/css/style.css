@@ -130,6 +130,91 @@
     outline: 1px solid var(--bs-dark);
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translateX(-1px);
+  }
+  20%, 80% {
+    transform: translateX(2px);
+  }
+  30%, 50%, 70% {
+    transform: translateX(-4px);
+  }
+  40%, 60% {
+    transform: translateX(4px);
+  }
+}
+
+.modal-shake {
+  animation: shake 0.5s;
+}
+.auth-container {
+    perspective: 1000px;
+}
+
+
+.auth-flipper {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  
+    min-height: 550px;
+}
+
+
+.auth-panel-front,
+.auth-panel-back {
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.auth-panel-front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+
+.auth-panel-back {
+    transform: rotateY(180deg);
+}
+
+.auth-container.is-flipped .auth-flipper {
+    transform: rotateY(180deg);
+}
+.bg-login-image, .bg-register-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+}
+
+
+.bg-login-image {
+    background-image: url('https://images.unsplash.com/photo-1555421689-d68471e189f2?q=80&w=2070&auto=format&fit=crop');
+}
+
+
+.bg-register-image {
+    background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop');
+}
+
+.auth-flipper {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    min-height: 640px; 
+}
+
+
+.bg-login-image, .bg-register-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 640px; 
+}
 
 /*** Topbar Start ***/ 
 .topbar .dropdown-toggle::after {
