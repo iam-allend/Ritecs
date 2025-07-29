@@ -1,4 +1,7 @@
 /* CUSTOM CSS DEVELOPING */
+html{
+    scroll-padding-top: 100px;
+}
 
 .btn-login{
     background-color: var(--bs-darkblue) !important;
@@ -325,10 +328,6 @@
     align-items: center;
     padding: 15px;
     transition: all ease-out 0.2s;
-}
-.navbar-light .navbar-nav .nav-item:hover,
-.navbar-light .navbar-nav .nav-item:hover .nav-link{
-    /* margin-left: -7px; */
 }
 
 
