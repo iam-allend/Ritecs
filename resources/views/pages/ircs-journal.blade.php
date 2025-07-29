@@ -15,10 +15,10 @@
     <!-- Header End -->
     
     <div class="container-fluid bg-white py-5">
-        <div class="container pt-5">
+        <div class="container pt-2">
             <div class="text-center m-auto pb-2 wow fadeInDown" data-wow-delay="0.2s"style="max-width: 900px;">
-                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/mp8J7x55XouwzNXQ/logo-ircs-jpg-dWxOgbGV0MH6aBMa.jpg" width="50" alt="">
-                <h2 class="display-6">Integrative Research in Computer Science</h2>
+                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/mp8J7x55XouwzNXQ/logo-ircs-jpg-dWxOgbGV0MH6aBMa.jpg" width="100" alt="">
+                <h2 class="display-6 my-4">Integrative Research in Computer Science</h2>
                 <p>
                     Integrative Research in Computer Science (IRCS) adalah jurnal akses terbuka (open access) yang ditinjau sejawat (peer-reviewed) yang memuat seluruh aspek ilmu komputer, baik teoretis maupun terapan, dan diterbitkan empat kali dalam setahun secara daring oleh RITECS
                 </p>
@@ -94,14 +94,14 @@
 
     <div class="container-fluid bg-whtie py-5" id="aim&scope">
         <div class="container text-center m-auto py-5" style="max-width: 900px;">
-            <h2 class="display-6">Aim & Scope</h2>
-            <p class="p-3 py-3 m-0 rounded">
+            <h2 class="display-6 wow fadeInUp" data-wow-delay="0.2s">Aim & Scope</h2>
+            <p class="p-3 py-3 m-0 rounded wow fadeInUp" data-wow-delay="0.2s">
                 Integrative Research in Computer Science (IRCS) menerbitkan karya asli yang telah ditinjau sejawat, yang mencerminkan sifat integratif dari ilmu komputer di berbagai disiplin ilmu. Jurnal ini mendorong pengiriman artikel yang menekankan pada dasar-dasar teoretis, implementasi praktis, kolaborasi interdisipliner, dan aplikasi inovatif. Topik-topik yang menjadi fokus meliputi, namun tidak terbatas pada:
             </p>
-            <p class="p-2 py-3 m-0">
+            <p class="p-2 py-3 m-0 wow fadeInUp" data-wow-delay="0.4s">
                 Artificial Intelligence, Machine Learning and Deep Learning; Data Science and Big Data Analytics; Software Engineering and System Architecture; Human-Computer Interaction (HCI); Computational Intelligence and Cognitive Computing; Cybersecurity and Cryptography; Computer Vision and Image Processing; Internet of Things (IoT) and Embedded Systems; Cloud Computing and Distributed Systems; Natural Language Processing; Robotics and Autonomous Systems; Bioinformatics and Computational Biology; Digital Media, Arts, and Cultural Computing; Educational Technologies and Learning Systems; Computational Social Science and E-Government; Theoretical Computer Science and Algorithms; Ethical, Legal, and Societal Implications of Computing.
             </p>
-            <p class="p-2 py-3 m-0">
+            <p class="p-2 py-3 m-0 wow fadeInUp" data-wow-delay="0.6s">
                 IRCS juga menerima artikel interdisipliner yang mengintegrasikan ilmu komputer dengan bidang seperti pendidikan, kesehatan, ekonomi, humaniora, seni, ilmu lingkungan, dan ranah-ranah baru lainnya.
             </p>
         </div>

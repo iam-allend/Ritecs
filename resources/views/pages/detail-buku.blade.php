@@ -15,7 +15,7 @@
             <div class="card mb-3 h-100 border-0">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <div class="blog-img rounded shadow-lg">
+                        <div class="blog-img rounded shadow-sm">
                             <img src="{{ ('assets/img/book1.png') }}" class="img-fluid w-100 object-fit-contain rounded-start rounded-end" alt="...">
                         </div>
                     </div>
