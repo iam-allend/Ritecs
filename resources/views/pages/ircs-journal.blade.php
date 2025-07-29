@@ -28,22 +28,22 @@
                 </p>
             </div>
             <div class="row justify-content-center">
-                <div class="col col-6 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.4s">
+                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.4s">
                     <a href="#archive" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Archive</a>
                 </div>
-                <div class="col col-6 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.6s">
+                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.6s">
                     <a href="#aim&scope" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Aim &
                         Scope</a>
                 </div>
-                <div class="col col-6 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.8s">
+                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.8s">
                     <a href="#editorialBoard"
                         class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Editoral Board</a>
                 </div>
-                <div class="col col-6 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1s">
+                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1s">
                     <a href="#reviewerBoard" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Reviewer
                         Board</a>
                 </div>
-                <div class="col col-6 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1.2s">
+                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1.2s">
                     <a href="#authorGuidelines"
                         class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Author Guidelines</a>
                 </div>
