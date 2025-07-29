@@ -51,7 +51,6 @@
                                 class="dropdown-item {{ ($title ?? '') === 'Contact' ? 'active' : '' }}">Kontak</a>
                         </div>
                     </div>
-
                     <div class="nav-btn px-3">
                         <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0"
                             data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>

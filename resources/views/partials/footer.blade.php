@@ -24,12 +24,12 @@
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item">
                                         <h4 class="text-white mb-4">Useful Links</h4>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                                        <a href="{{ route('about') }}"><i class="fas fa-angle-right me-2"></i> About Us</a>
                                         <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                        <a href="{{ route('service') }}"><i class="fas fa-angle-right me-2"></i> Services</a>
                                         <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
                                         <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                        <a href="{{ route('contact') }}"><i class="fas fa-angle-right me-2"></i> Contact</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-4">
@@ -168,13 +168,13 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-end mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>RITECS</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-start text-body">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                        Distributed By <a class="border-bottom text-white" href="">RITECS</a>
                     </div>
                 </div>
             </div>
