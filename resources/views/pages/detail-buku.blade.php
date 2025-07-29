@@ -103,8 +103,8 @@
     
                                 <div class="content mt-4">
                                     <div class="d-flex justify-content-between gap-3">
-                                        <a href="" class="w-100 rounded-pill btn btn-outline-dark small">Unduh E-Book</a>
-                                        <a href="" class="w-100 rounded-pill btn-login-me btn btn-dark small">Pemesanan</a>
+                                        <a href="" class="w-100 rounded-pill btn btn-outline-dark small"><i class="fas fa-download me-2"></i>Unduh E-Book</a>
+                                        <a href="" class="w-100 rounded-pill btn-login-me btn btn-dark small"><i class="bi bi-cart-plus-fill me-2"></i>Pemesanan</a>
                                     </div>
                                 </div>
 

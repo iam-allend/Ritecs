@@ -656,7 +656,7 @@ html{
     position: relative;
     overflow: hidden;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .service .service-item .service-img img {
@@ -675,7 +675,7 @@ html{
     top: 0;
     left: 0;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     background: rgba(1, 95, 201, .2);
     transition: 0.5s;
     z-index: 1;
@@ -802,9 +802,10 @@ html{
 
 .blog .blog-item .blog-img {
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     position: relative;
     overflow: hidden;
+    max-height: 250px !important;
 }
 
 .blog .blog-item .blog-img img {
@@ -823,7 +824,7 @@ html{
     top: 0;
     left: 0;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     background: rgba(1, 95, 201, .2);
     transition: 0.5s;
     z-index: 1;
@@ -847,6 +848,7 @@ html{
 .blog .blog-item .blog-content {
     /* border-bottom-left-radius: 10px; */
     border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     background: var(--bs-light);
 }
 
@@ -1028,7 +1030,7 @@ html{
 
 .scheme-card .icon-container {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     color: var(--bs-primary);
 }
 
@@ -1036,11 +1038,6 @@ html{
     font-weight: 700;
     color: var(--bs-dark);
     font-size: 1.25rem;
-}
-
-.scheme-card .scheme-description {
-    color: #6c757d; 
-    flex-grow: 1; 
 }
 
 .scheme-card .scheme-footer {

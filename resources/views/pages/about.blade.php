@@ -20,7 +20,7 @@
 
         <!-- About Start -->
         <div class="container-fluid bg-light about pb-5 mt-5">
-            <div class="container pb-5">
+            <div class="container pb-5 mt-5">
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
@@ -191,7 +191,7 @@
                         <div class="h-100">
                             <div class="mb-5">
                                 <h4 class="text-primary">Some Important FAQ's</h4>
-                                <h1 class="display-4 mb-0"> pertanyaan umum tentang layanan dan penerbitan di RITECS.</h1>
+                                <h1 class="display-5 mb-0">Pertanyaan umum tentang layanan dan penerbitan di RITECS.</h1>
                             </div>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
