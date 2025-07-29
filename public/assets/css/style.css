@@ -857,6 +857,98 @@ html{
 .blog .blog-item:hover .blog-content a.btn:hover {
     color: var(--bs-primary);
 }
+/* blog buku */
+
+.blog-card-flat {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+/* Efek hover flat yang konsisten */
+.blog-card-flat:hover {
+    transform: translateY(-6px);
+    border-color: var(--bs-primary);
+}
+
+/* Mengatur wadah gambar */
+.blog-card-flat .blog-img {
+    position: relative;
+    height: 100%;
+    overflow: hidden; /* Penting untuk efek zoom */
+}
+
+.blog-card-flat .blog-img img {
+    transition: transform 0.4s ease; /* Transisi untuk efek zoom */
+}
+
+.blog-card-flat:hover .blog-img img {
+    transform: scale(1.05); /* Efek zoom halus pada gambar */
+}
+
+/* Kategori di atas gambar */
+.blog-card-flat .blog-categiry {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bs-primary);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Area konten teks */
+.blog-card-flat .blog-content {
+    padding: 1.25rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Metadata (Author & Date) */
+.blog-card-flat .blog-comment {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.blog-card-flat .blog-comment .fa {
+    margin-right: 0.5rem;
+}
+
+/* Judul Artikel/Buku */
+.blog-card-flat .blog-title {
+    color: var(--bs-dark);
+    font-weight: 600;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.blog-card-flat:hover .blog-title {
+    color: var(--bs-primary);
+}
+
+/* Deskripsi singkat */
+.blog-card-flat .blog-description {
+    color: #495057;
+    flex-grow: 1; /* Mendorong link 'Lihat Detail' ke bawah */
+}
+
+/* Link "Lihat Detail" */
+.blog-card-flat .read-more {
+    color: var(--bs-dark);
+    font-weight: 600;
+    transition: color 0.2s ease;
+    align-self: flex-start; /* Memastikan posisinya di kiri */
+}
+
+.blog-card-flat:hover .read-more {
+    color: var(--bs-primary);
+}
+/* blog buku end */
 /*** Blog End ***/
 /* peneribtan buku */
 /* Custom Styles for a Cleaner Look */
