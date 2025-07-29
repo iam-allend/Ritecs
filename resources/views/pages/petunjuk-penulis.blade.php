@@ -157,10 +157,10 @@
 
         <div class="container-fluid py-5">
             <div class="container pb-5">
-                <div class="text-center m-auto pb-2" style="max-width: 900px;">
+                <div class="text-center m-auto pb-2 wow fadeInDown" data-wow-delay="0.2s" style="max-width: 900px;">
                     <!-- <h4 class="text-primary">Menerbitkan Buku</h4> -->
                     <h1 class="display-6">Menerbitkan Buku Bersama Ritecs</h1>
-                    <p class="btn btn-dark rounded-pill px-4 small text-nowrap fw-bold">Jenis buku yang kami terbitkan</p>
+                    <p class="btn text-white bg-dark rounded-pill px-4 py-2 small text-nowrap fw-bold">Jenis buku yang kami terbitkan</p>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col col-12 col-md-6 col-xl-4 col-xxl-3 p-2 m-0">
@@ -209,7 +209,7 @@
             </div>
 
             <div class="container px-md-5 px-1 text-center" style="max-width: 1000px;">
-                <div class="item-skema pb-3 pt-0 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="item-skema pb-3 pt-0 wow fadeInUp" data-wow-delay="0.3s">
                     <h5 class="m-0 p-0 my-2">Buku Elektronik ber-eISBN dengan Akses Terbuka</h5>
                     <p class="p-0 m-0">
                         Akses terbuka (open access) adalah model publikasi yang memungkinkan siapa pun untuk mengakses,
@@ -221,7 +221,7 @@
                     </p>
                 </div>
 
-                <div class="item-skema py-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="item-skema py-3 wow fadeInUp" data-wow-delay="0.4s">
                     <h5 class="m-0 p-0 my-2">Buku Elektronik ber-eISBN dengan Akses Tertutup</h5>
                     <p class="p-0 m-0">
                         Akses tertutup (closed-access) adalah model publikasi di mana karya ilmiah hanya dapat diakses oleh
@@ -233,7 +233,7 @@
                     </p>
                 </div>
 
-                <div class="item-skema py-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="item-skema py-3 wow fadeInUp" data-wow-delay="0.5s">
                     <h5 class="m-0 p-0 my-2">Buku Cetak ber-ISBN</h5>
                     <p class="p-0 m-0">
                         Skema ini berlaku untuk karya ilmiah yang hanya dapat diakses oleh pembaca yang membeli buku. Dalam
