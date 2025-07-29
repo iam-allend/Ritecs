@@ -44,7 +44,7 @@
                             <a href="{{ route('petunjuk-penulis') }}"
                                 class="dropdown-item {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}">Petunjuk
                                 Penulis</a>
-                            <a href="{{ route('home') }}"
+                            <a href="{{ route('ircs-journal') }}"
                                 class="dropdown-item {{ ($title ?? '') === 'IRCS Journal' ? 'active' : '' }}">IRCS
                                 Jurnal</a>
                             <a href="{{ route('contact') }}"

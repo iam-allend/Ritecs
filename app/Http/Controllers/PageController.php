@@ -39,5 +39,9 @@ class PageController extends Controller
     {
         return view('pages.petunjuk-penulis', ['title' => 'Petunjuk Penulis']);
     }
+    public function ircsJournal()
+    {
+        return view('pages.ircs-journal', ['title' => 'IRCS Journal']);
+    }
 
 }
