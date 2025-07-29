@@ -861,6 +861,109 @@
 /*** Blog End ***/
 /* peneribtan buku */
 /* Custom Styles for a Cleaner Look */
+
+
+/* Custom Flat Design for Book Types Section */
+.book-type-card {
+    background-color: #f8f9fa; 
+    border: 1px solid #e9ecef;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-type-card .icon-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(1, 95, 201, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-type-card .icon-container i {
+    font-size: 2rem;
+    color: var(--bs-primary);
+}
+
+.book-type-card .book-title {
+    font-weight: 600;
+    color: var(--bs-dark);
+    font-size: 1rem;
+}
+
+/* Efek Hover */
+.book-type-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.book-type-card:hover .icon-container {
+    background-color: #ffffff;
+}
+
+.book-type-card:hover .icon-container i {
+    color: var(--bs-primary);
+}
+
+.book-type-card:hover .book-title {
+    color: #ffffff;
+}
+
+/* end */
+/* Custom Flat Design for Publishing Schemes */
+.scheme-card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef; 
+    border-top: 4px solid #e9ecef; 
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: left; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.scheme-card .icon-container {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--bs-primary);
+}
+
+.scheme-card .scheme-title {
+    font-weight: 700;
+    color: var(--bs-dark);
+    font-size: 1.25rem;
+}
+
+.scheme-card .scheme-description {
+    color: #6c757d; 
+    flex-grow: 1; 
+}
+
+.scheme-card .scheme-footer {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: var(--bs-dark);
+}
+
+.scheme-card:hover {
+    border-top-color: var(--bs-primary);
+    transform: translateY(-5px); 
+}
+/* end */
+/* Jenis Buku Item */
 .jenis-buku-item {
   background-color: #ffffff;
   border: 1px solid #e9ecef;
