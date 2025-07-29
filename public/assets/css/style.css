@@ -924,6 +924,57 @@
     color: #6c757d !important;
 } 
 /* end */
+
+/* ircs */
+
+.sidebar-nav .nav-link {
+    color: var(--bs-dark);
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-nav .nav-link:hover,
+.sidebar-nav .nav-link.active {
+    color: var(--bs-primary);
+    background-color: rgba(1, 95, 201, 0.05);
+    border-left-color: var(--bs-primary);
+}
+
+
+.topic-list {
+    list-style-type: none;
+    padding-left: 0;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;   
+    column-count: 2;
+    -webkit-column-gap: 2rem; 
+    -moz-column-gap: 2rem;   
+    column-gap: 2rem;
+}
+.topic-list li {
+    padding-bottom: 0.5rem;
+    break-inside: avoid-column;
+}
+.topic-list li::before {
+    content: "\f058"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--bs-primary);
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .topic-list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+.ircs-section {
+    margin-bottom: 3rem;
+}
+/* ircs end */
 /*** Team Start ***/
 .team .team-item .team-img {
     position: relative;
