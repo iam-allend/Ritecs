@@ -111,13 +111,13 @@
 
         <!-- Team Start -->
         <div class="container team pb-5">
-            <div class="text-start pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <div class="text-center m-auto w-100 pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Tim Kami</h4>
                 <h1 class="display-4 mb-4">Editorial Board</h1>
                 <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                 </p> -->
             </div>
-            <div class="row g-4 justify-content-start w-100">
+            <div class="row g-4 justify-content-center m-auto w-100 w-100">
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
@@ -172,36 +172,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container team pb-5">
-            <div class="text-start pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-primary">Tim Kami</h4>
-                <h1 class="display-4 mb-4">Editorial Board</h1>
-                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                </p> -->
-            </div>
-            <div class="row g-4 justify-content-start w-100">
-                
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="assets/img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-white team-title p-4">
-                            <p class="mb-1 fw-bolder"><i class="bi bi-gear"></i> Editor-in-Chief</p>
-                            <h5 class="mb-0 pb-0 text-white fw-bold">Dr. Arry Maulana Syarif</h5>
-                            <p class="mb-0">Universitas Dian Nuswantoro</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
         <!-- Team End -->

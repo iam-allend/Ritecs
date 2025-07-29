@@ -15,6 +15,123 @@
         <!-- Header End -->
          
 
+
+        <div class="container-fluid py-5" style="background-color: #f8f9fa;">
+    <div class="container py-5">
+
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h4 class="text-primary">Layanan Kami</h4>
+            <h1 class="display-4 mb-4">Menerbitkan Buku bersama Ritecs</h1>
+            <p class="mb-0">Kami menerima berbagai jenis naskah untuk diterbitkan menjadi buku berkualitas dengan standar nasional dan internasional.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+             <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-book fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Ajar</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-scroll fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Monograf</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-atlas fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Referensi</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-atom fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Populer Ilmiah</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-flask fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Modul / Praktikum</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-comments fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Konferensi / Prosiding</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-globe-asia fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Non-Fiksi Umum</h5>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="d-flex align-items-center rounded p-4 jenis-buku-item">
+                    <i class="fa fa-feather-alt fa-2x text-primary me-3"></i>
+                    <h5 class="m-0">Buku Fiksi</h5>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <div class="text-center mx-auto pt-5 pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h4 class="text-primary">Model Publikasi</h4>
+            <h1 class="display-4 mb-4">Skema Penerbitan Buku</h1>
+            <p class="mb-0">Pilih skema penerbitan yang paling sesuai dengan tujuan dan kebutuhan distribusi karya Anda.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="accordion skema-accordion" id="skemaAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-unlock-alt fa-2x me-3"></i> Akses Terbuka (eISBN)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#skemaAccordion">
+                            <div class="accordion-body">
+                                <p>Model publikasi yang memungkinkan siapa pun untuk mengakses, membaca, dan menggunakan karya ilmiah secara <strong>gratis</strong> melalui internet. Pengetahuan dapat disebarluaskan lebih luas dan cepat, mendukung kolaborasi, transparansi, serta kemajuan ilmu pengetahuan.</p>
+                                <footer class="blockquote-footer mt-2">Distribusi luas untuk jangkauan maksimal.</footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-lock fa-2x me-3"></i> Akses Tertutup (eISBN)
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#skemaAccordion">
+                            <div class="accordion-body">
+                                <p>Model publikasi di mana karya ilmiah hanya dapat diakses oleh pembaca yang <strong>membayar</strong> atau memiliki <strong>langganan</strong>. Akses dibatasi oleh <em>paywall</em>, sehingga penyebaran ilmu pengetahuan lebih terkontrol. Strategi distribusi dan penjualan akan didiskusikan untuk mendapatkan kesepakatan.</p>
+                                <footer class="blockquote-footer mt-2">Model komersial dengan potensi monetisasi.</footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa fa-print fa-2x me-3"></i> Buku Cetak (ISBN)
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#skemaAccordion">
+                            <div class="accordion-body">
+                                <p>Skema ini berlaku untuk karya yang diwujudkan dalam bentuk fisik dan hanya dapat diakses oleh pembaca yang <strong>membeli buku</strong>. Penulis menanggung biaya cetak untuk 100-500 eksemplar. Strategi distribusi dan penjualan akan didiskusikan bersama untuk mencapai kesepakatan.</p>
+                                <footer class="blockquote-footer mt-2">Wujud fisik untuk koleksi dan penjualan langsung.</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+        <!-- petunjuk -->
     <div class="container-fluid feature bg-light py-5">
 
         <div class="container-fluid py-5">
@@ -158,5 +275,5 @@
         </div>
 
     </div>
-
+ 
 @endsection
