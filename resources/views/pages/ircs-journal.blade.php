@@ -104,12 +104,12 @@
         </div>
 
     </div>
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="aim-scope">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-xl-8">
 
-                    <div id="aim-scope" class="ircs-section wow fadeInUp" data-wow-delay="0.2s">
+                    <div  class="ircs-section p-2 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Aim & Scope</h2>
                         <p>Integrative Research in Computer Science (IRCS) menerbitkan karya asli yang telah ditinjau
                             sejawat, yang mencerminkan sifat integratif dari ilmu komputer di berbagai disiplin ilmu. Jurnal
@@ -142,7 +142,7 @@
 
                     <hr class="my-5">
 
-                    <div id="editorial-board" class="ircs-section wow fadeInUp" data-wow-delay="0.2s">
+                    <div id="editorial-board" class="ircs-section p-3 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Editorial Board</h2>
                         <h5 class="fw-bold">Editor-in-Chief:</h5>
                         <p class="ms-3 mb-3">Dr. Arry Maulana Syarif <br><em class="text-muted">(Universitas Dian
@@ -159,35 +159,34 @@
 
                     <hr class="my-5">
 
-                    <div id="reviewer-board" class="ircs-section wow fadeInUp" data-wow-delay="0.2s">
+                    <div id="reviewer-board" class="ircs-section p-3 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Reviewer Board</h2>
                         <p class="ms-3 mb-3">Dr. Ahmad Zainul Fanani <br><em class="text-muted">(Universitas Dian
                                 Nuswantoro)</em></p>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <div class="position-sticky" style="top: 1.5rem;">
-                        <div class="p-4 rounded border bg-light mb-4 wow fadeInUp" data-wow-delay="0.3s">
-                            <h4 class="mb-3">Author Guidelines</h4>
+                        <div class="p-4 rounded border bg-light mb-4 text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h4 class="mb-1">Author Guidelines</h4>
                             <p>Submit manuskrip dalam format .docx ke:</p>
-                            <a href="" class="btn btn-dark w-100 mb-2">
+                            <a href="#" class="btn btn-dark btn-login-me fw-normal rounded-pill w-100 mb-2">
                                 <i class="fas fa-envelope me-2"></i> submission.ritecs@gmail.com
                             </a>
-                            <small class="d-block text-center">Subject email: <strong>Manuscript Submission</strong></small>
+                            <small class="d-block text-center">Subject email: <span class="fw-bold">Manuscript Submission</span></small>
                         </div>
 
-                        <div class="p-4 rounded border mb-4 wow fadeInUp" data-wow-delay="0.4s">
-                            <h4 class="mb-3">Template & Fee</h4>
-                            <p>Anda dapat mengirimkan artikel dalam format bebas, atau menggunakan template kami.</p>
-                            <a href="#" class="btn btn-primary w-100 mb-3">
+                        <div class="p-4 rounded text-center border mb-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <h4 class="mb-1 text-center text-primary">Template & Fee</h4>
+                            <p class="text-center">Anda dapat mengirimkan artikel dalam format bebas, atau menggunakan template kami.</p>
+                            <a href="#" class="btn btn-outline-primary fw-normal rounded-pill w-100 mb-3">
                                 <i class="fas fa-download me-2"></i> Unduh IRCS Template.docx
                             </a>
                             <hr>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-money-bill-wave fa-2x text-primary me-3"></i>
-                                <div>
-                                    <strong>Biaya Publikasi:</strong><br>
+                            <div class="d-flex align-items-center w-100 m-auto">
+                                <div class="w-100 m-auto text-center">
+                                    <p class="fw-bold m-0">Biaya Publikasi:</p>
                                     Rp 500.000,- (dibayar setelah diterima).
                                 </div>
                             </div>
@@ -196,9 +195,9 @@
                         <div class="p-3 rounded border wow fadeInUp" data-wow-delay="0.5s">
                             <h5 class="mb-2 ps-2">Navigasi</h5>
                             <nav class="nav flex-column sidebar-nav">
-                                <a class="nav-link" href="#aim-scope">Aim & Scope</a>
-                                <a class="nav-link" href="#editorial-board">Editorial Board</a>
-                                <a class="nav-link" href="#reviewer-board">Reviewer Board</a>
+                                <a class="nav-link my-2 py-0" href="#aim-scope">Aim & Scope</a>
+                                <a class="nav-link my-2 py-0" href="#editorial-board">Editorial Board</a>
+                                <a class="nav-link my-2 py-0" href="#reviewer-board">Reviewer Board</a>
                             </nav>
                         </div>
                     </div>

@@ -158,9 +158,9 @@
         <div class="container-fluid py-5">
             <div class="container">
 
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
                     <h1 class="display-6 mb-3">Menerbitkan Buku Bersama Ritecs</h1>
-                    <p class="lead" style="color: #6c757d;">Kami menerima beragam jenis naskah untuk diterbitkan menjadi
+                    <p>Kami menerima beragam jenis naskah untuk diterbitkan menjadi
                         buku berkualitas dengan standar nasional dan internasional.</p>
                 </div>
 
@@ -263,7 +263,7 @@
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h4 class="text-primary">Model Publikasi</h4>
             <h1 class="display-6 mb-4">Skema Penerbitan Buku</h1>
-            <p class="lead" style="color: #6c757d;">Pilih skema penerbitan yang paling sesuai dengan tujuan dan kebutuhan distribusi karya Anda.</p>
+            <p>Pilih skema penerbitan yang paling sesuai dengan tujuan dan kebutuhan distribusi karya Anda.</p>
         </div>
 
         <div class="row g-4 justify-content-center">
@@ -273,12 +273,12 @@
                     <div class="icon-container">
                         <i class="fas fa-globe-americas"></i>
                     </div>
-                    <h5 class="scheme-title">Akses Terbuka (eISBN)</h5>
-                    <p class="scheme-description">
+                    <h5 class="fw-bold text-dark mt-0">Akses Terbuka (eISBN)</h5>
+                    <p class="mb-2">
                         Model publikasi gratis yang memungkinkan karya Anda diakses oleh siapa saja di seluruh dunia, mempercepat penyebaran ilmu pengetahuan dan meningkatkan jumlah sitasi.
                     </p>
-                    <div class="scheme-footer">
-                        <i class="fas fa-check-circle text-primary me-2"></i> Jangkauan Maksimal
+                    <div class="text-primary fw-medium">
+                        <i class="fas fa-check-circle me-1"></i> Jangkauan Maksimal
                     </div>
                 </div>
             </div>
@@ -288,12 +288,12 @@
                     <div class="icon-container">
                         <i class="fas fa-lock"></i>
                     </div>
-                    <h5 class="scheme-title">Akses Tertutup (eISBN)</h5>
-                    <p class="scheme-description">
+                    <h5 class="fw-bold text-dark mt-0">Akses Tertutup (eISBN)</h5>
+                    <p class="mb-2">
                         Model publikasi komersial di mana pembaca perlu membayar atau berlangganan. Skema ini memberikan kontrol penuh atas distribusi dan potensi monetisasi karya Anda.
                     </p>
-                    <div class="scheme-footer">
-                        <i class="fas fa-check-circle text-primary me-2"></i> Potensi Monetisasi
+                    <div class="text-primary fw-medium">
+                        <i class="fas fa-check-circle me-1"></i> Potensi Monetisasi
                     </div>
                 </div>
             </div>
@@ -303,12 +303,12 @@
                     <div class="icon-container">
                         <i class="fas fa-book-open"></i>
                     </div>
-                    <h5 class="scheme-title">Buku Cetak (ISBN)</h5>
-                    <p class="scheme-description">
+                    <h5 class="fw-bold text-dark mt-0">Buku Cetak (ISBN)</h5>
+                    <p class="mb-2">
                         Skema tradisional untuk karya yang diwujudkan dalam bentuk fisik. Penulis menanggung biaya cetak untuk mendapatkan hasil eksklusif yang dapat dijual dan didistribusikan.
                     </p>
-                    <div class="scheme-footer">
-                        <i class="fas fa-check-circle text-primary me-2"></i> Wujud Fisik Eksklusif
+                    <div class="text-primary fw-medium">
+                        <i class="fas fa-check-circle me-1"></i> Wujud Fisik Eksklusif
                     </div>
                 </div>
             </div>

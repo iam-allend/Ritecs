@@ -936,7 +936,7 @@ html{
 
 .scheme-card .icon-container {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     color: var(--bs-primary);
 }
 
@@ -944,11 +944,6 @@ html{
     font-weight: 700;
     color: var(--bs-dark);
     font-size: 1.25rem;
-}
-
-.scheme-card .scheme-description {
-    color: #6c757d; 
-    flex-grow: 1; 
 }
 
 .scheme-card .scheme-footer {
