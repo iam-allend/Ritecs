@@ -1612,37 +1612,3 @@ html{
     padding: 1rem 1.25rem;
     margin-top: 1rem;
 }
-/* Anda bisa menambahkan ini ke CSS yang sudah ada */
-
-.pro-v-card .card-body {
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; 
-}
-
-.pro-v-card .card-title {
-    color: var(--bs-dark);
-    font-weight: 600;
-    font-size: 1.1rem;
-    line-height: 1.5;
-    transition: color 0.2s ease;
-    margin-top: 0.5rem;
-    /* flex-grow: 1; dihapus dari sini */
-}
-
-/* [BARU] CSS untuk deskripsi singkat */
-.pro-v-card .card-description {
-    color: #6c757d;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-top: 0.75rem;
-    flex-grow: 1; /* Mendorong footer ke bawah */
-
-    /* Teknik untuk membatasi teks menjadi 3 baris */
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
