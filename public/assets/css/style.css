@@ -860,7 +860,114 @@ html{
     color: var(--bs-primary);
 }
 /* blog buku */
+/* =================================
+   Clean & Refined Flat Design untuk Daftar Buku
+   ================================= */
 
+/* Pembungkus utama kartu */
+.clean-book-card {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0; 
+    border-radius: 0.8rem;      
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.clean-book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07); 
+    border-color: #ffffff; 
+}
+
+/* Wadah gambar */
+.clean-book-card .clean-book-img {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Efek zoom gambar yang lebih subtil */
+.clean-book-card .clean-book-img img {
+    transition: transform 0.4s ease;
+}
+
+.clean-book-card:hover .clean-book-img img {
+    transform: scale(1.03); /* Zoom sedikit lebih kecil agar lebih halus */
+}
+
+/* Tag Kategori Baru (Glassmorphism) */
+.clean-book-card .clean-book-category {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgba(255, 255, 255, 0.7); /* Latar belakang semi-transparan */
+    backdrop-filter: blur(8px); /* Efek kaca buram */
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #212529; /* Teks lebih gelap agar kontras */
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50rem; /* Bentuk pil */
+    z-index: 2;
+}
+
+/* Konten Teks */
+.clean-book-card .clean-book-content {
+    padding: 1.25rem 1.5rem; /* Padding horizontal ditambah */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Metadata: Author & Tanggal */
+.clean-book-card .clean-book-meta {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+}
+.clean-book-card .clean-book-meta .meta-item {
+    margin-right: 1rem;
+}
+.clean-book-card .clean-book-meta .fa {
+    margin-right: 0.5rem;
+    color: var(--bs-primary);
+}
+
+/* Judul Buku */
+.clean-book-card .clean-book-title {
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.clean-book-card:hover .clean-book-title {
+    color: var(--bs-primary);
+}
+
+/* Deskripsi */
+.clean-book-card .clean-book-description {
+    color: #495057;
+    flex-grow: 1;
+    margin-top: 0.5rem;
+}
+
+/* Link "Lihat Detail" */
+.clean-book-card .clean-book-readmore {
+    color: var(--bs-dark);
+    font-weight: 600;
+    transition: color 0.2s ease;
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.clean-book-card:hover .clean-book-readmore {
+    color: var(--bs-primary);
+}
+/* end buku */
 .blog-card-flat {
     display: block;
     background-color: #ffffff;
@@ -1407,3 +1514,135 @@ html{
 /*** copyright end ***/
 
 
+/* =================================
+   Professional Vertical Card Design
+   ================================= */
+
+/* Pembungkus utama kartu vertikal */
+.pro-v-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #eef0f2; /* Garis batas yang bersih */
+    border-radius: 0.8rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    text-decoration: none;
+}
+
+/* Efek hover yang halus dan profesional */
+.pro-v-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-color: #ffffff;
+}
+
+/* Wadah gambar di bagian atas */
+.pro-v-card .card-img-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5; /* Rasio sampul buku yang lebih umum */
+    overflow: hidden;
+}
+
+.pro-v-card .card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.pro-v-card:hover .card-img-container img {
+    transform: scale(1.04);
+}
+
+/* Tag Kategori dengan efek modern */
+.pro-v-card .card-category {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    color: var(--bs-dark);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.35rem 0.85rem;
+    border-radius: 50rem;
+    z-index: 2;
+}
+
+/* Konten teks di bagian bawah */
+.pro-v-card .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Penting agar footer selalu di bawah */
+}
+
+/* Metadata */
+.pro-v-card .card-meta {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+.pro-v-card .card-meta .meta-item .fa {
+    margin-right: 0.5rem;
+}
+
+/* Judul Buku */
+.pro-v-card .card-title {
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.2s ease;
+    flex-grow: 1; /* Mendorong footer ke bawah */
+    margin-top: 0.5rem;
+}
+
+.pro-v-card:hover .card-title {
+    color: var(--bs-primary);
+}
+
+/* Bagian Footer Kartu untuk Tombol */
+.pro-v-card .card-footer {
+    background-color: transparent;
+    border-top: 1px solid #f0f0f2;
+    padding: 1rem 1.25rem;
+    margin-top: 1rem;
+}
+/* Anda bisa menambahkan ini ke CSS yang sudah ada */
+
+.pro-v-card .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.pro-v-card .card-title {
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: color 0.2s ease;
+    margin-top: 0.5rem;
+    /* flex-grow: 1; dihapus dari sini */
+}
+
+/* [BARU] CSS untuk deskripsi singkat */
+.pro-v-card .card-description {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+    flex-grow: 1; /* Mendorong footer ke bawah */
+
+    /* Teknik untuk membatasi teks menjadi 3 baris */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
