@@ -2,6 +2,36 @@
 html{
     scroll-padding-top: 100px;
 }
+.card-buku{
+    max-width: 330px;
+    min-width: 260px;
+    text-align: left;
+}
+.flex-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem; /* jarak antar card */
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+
+.flex-scroller::-webkit-scrollbar {
+    height: 8px;
+}
+
+.flex-scroller::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.flex-scroller .col-md-6 {
+    flex: 0 0 auto; /* jangan shrink, biar card tetap lebar asli */
+    width: 300px;   /* tentukan lebar card */
+}
+
+.small.text-harga{
+    font-size: 0.8rem;
+}
 
 .btn-login{
     background-color: var(--bs-darkblue) !important;
@@ -156,7 +186,7 @@ html{
 }
 
 .btn.btn-primary {
-    color: var(--bs-white);
+    color: var(--bs-white) !important;
     border: none;
 }
 
@@ -516,6 +546,15 @@ html{
 
 
 @media (max-width: 767px) {
+    .card-buku{
+        max-width: 250px;
+        min-width: 200px;
+        text-align: left;
+    }
+    .blog .blog-item .blog-img {
+        max-height: 190px !important;
+    }
+
     .header-carousel .header-carousel-item {
         height: 950px;
     }
@@ -536,7 +575,7 @@ html{
 
     .blog .blog-item .blog-img {
         border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        /* border-bottom-left-radius: 10px; */
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         position: relative;
@@ -805,7 +844,7 @@ html{
     border-top-right-radius: 10px;
     position: relative;
     overflow: hidden;
-    max-height: 250px !important;
+    max-height: 250px;
 }
 
 .blog .blog-item .blog-img img {
