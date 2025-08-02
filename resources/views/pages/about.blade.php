@@ -43,7 +43,7 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-12">
                                     <div class="rounded bg-light">
-                                        <img src="assets/img/about-1.png" class="img-fluid rounded w-100" alt="">
+                                        <img src="assets/img/tim.png" class="img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
