@@ -1,0 +1,53 @@
+flowchart TD
+    %% START
+    Start([Mulai: Pengguna Membuka Website])
+    Start --> Nav{Pilih Menu Navigasi?}
+
+    %% MENU PENGUNJUNG (PROSES)
+    Nav -->|Beranda| Beranda[Beranda]
+    Nav -->|Tentang| Tentang[Halaman Tentang]
+    Nav -->|Layanan| Layanan[Daftar Layanan] --> LayananDetail[Detail Layanan]
+    Nav -->|Publish| Publish[Daftar Buku/Jurnal] --> PublishDetail[Detail Buku/Jurnal]
+
+    %% FORM KONTAK 
+    Nav -->|Contact Us| Contact[/Form Kontak/]
+    Contact --> ContactSend{Kirim Form Berhasil?}
+    ContactSend -->|Ya| ContactSuccess([Pesan Terkirim])
+    ContactSend -->|Tidak| Contact
+
+    %% LOGIN/REGISTER
+    Nav -->|Login/Register| LoginRegister[/Form Login/Register/]
+    LoginRegister --> LoginSuccess{Login Berhasil?}
+    LoginSuccess -->|Tidak| Start
+    LoginSuccess -->|Ya| RoleCheck{Role User?}
+
+    %% ROLE
+    RoleCheck -->|Member| M_Dashboard[Dashboard Member]
+    RoleCheck -->|Admin| A_Dashboard[Dashboard Admin]
+
+    %% FLOW MEMBER (PROSES)
+    M_Dashboard --> M_Aksi{Menu Member?}
+    M_Aksi -->|Kelola Profil| M_Profile[Kelola Profil]
+    M_Aksi -->|Membership| M_Membership[Status Membership]
+    M_Aksi -->|Buku| M_Buku[Buku]
+    M_Aksi -->|Jurnal| M_Jurnal[Jurnal]
+
+    %% FLOW ADMIN (PROSES)
+    A_Dashboard --> A_Kelola_Beranda[Kelola Beranda]
+    A_Dashboard --> A_Kelola_Penerbitan[Kelola Penerbitan]
+    A_Dashboard --> A_Kelola_Member[Kelola Member]
+    A_Dashboard --> A_Kelola_Pesan[Kelola Pesan Masuk]
+    A_Kelola_Penerbitan --> A_Kelola_Buku[Kelola Buku]
+    A_Kelola_Penerbitan --> A_Kelola_Jurnal[Kelola Jurnal]
+
+    %% END POINT
+    ContactSuccess --> End([Selesai])
+    M_Profile --> End
+    M_Membership --> End
+    M_Buku --> End
+    M_Jurnal --> End
+    A_Kelola_Beranda --> End
+    A_Kelola_Buku --> End
+    A_Kelola_Jurnal --> End
+    A_Kelola_Member --> End
+    A_Kelola_Pesan --> End
