@@ -15,41 +15,66 @@
     </div>
     <!-- Header End -->
 
-    <div class="container-fluid bg-white py-5">
-        <div class="container pt-2">
-            <div class="text-center m-auto pb-2 wow fadeInDown" data-wow-delay="0.2s" style="max-width: 900px;">
-                <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/mp8J7x55XouwzNXQ/logo-ircs-jpg-dWxOgbGV0MH6aBMa.jpg"
-                    width="100" alt="">
-                <h2 class="display-6 my-4">Integrative Research in Computer Science</h2>
-                <p>
-                    Integrative Research in Computer Science (IRCS) adalah jurnal akses terbuka (open access) yang ditinjau
-                    sejawat (peer-reviewed) yang memuat seluruh aspek ilmu komputer, baik teoretis maupun terapan, dan
-                    diterbitkan empat kali dalam setahun secara daring oleh RITECS
-                </p>
+    <div class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/mp8J7x55XouwzNXQ/logo-ircs-jpg-dWxOgbGV0MH6aBMa.jpg" width="100" alt="IRCS Logo" class="mb-4">
+            <h1 class="display-5 mb-3">Integrative Research in Computer Science (IRCS)</h1>
+            <p class="lead text-muted">
+                IRCS adalah jurnal akses terbuka (*open access*) yang ditinjau sejawat (*peer-reviewed*) yang memuat seluruh aspek ilmu komputer, baik teoretis maupun terapan, dan diterbitkan empat kali dalam setahun secara daring oleh RITECS.
+            </p>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Navigasi Cepat</h5>
+                        <div class="sidebar-nav">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tujuan"><i class="fas fa-archive me-2"></i>Tujuan & Ruang Lingkup</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#aim-scope"><i class="fas fa-bullseye me-2"></i>Aim-Scope</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#editorial-board"><i class="fas fa-users me-2"></i>Editorial-Board</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#reviewer-board"><i class="fas fa-user-check me-2"></i>Reviewer-Board</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#authorGuidelines"><i class="fas fa-envelope me-2"></i>Author-Guidelines</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#template-fee"><i class="fas fa-file-alt me-2"></i>Template</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.4s">
-                    <a href="#archive" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Archive</a>
+
+            <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="ircs-section" id="tujuan">
+                    <h3 class="mb-3">Tujuan & Ruang Lingkup</h3>
+                    <p>IRCS bertujuan untuk menjadi platform terdepan bagi para peneliti, akademisi, dan praktisi untuk berbagi pengetahuan dan inovasi terbaru di bidang ilmu komputer. Kami mendorong pengiriman naskah yang mencakup, namun tidak terbatas pada, topik-topik berikut:</p>
+                    <ul class="topic-list mt-4">
+                        <li>Kecerdasan Buatan & Pembelajaran Mesin</li>
+                        <li>Keamanan Siber & Jaringan</li>
+                        <li>Ilmu Data & Analitik</li>
+                        <li>Rekayasa Perangkat Lunak</li>
+                        <li>Visi Komputer & Pengolahan Citra</li>
+                        <li>Komputasi Awan & Terdistribusi</li>
+                        <li>Interaksi Manusia & Komputer</li>
+                        <li>Bioinformatika</li>
+                    </ul>
                 </div>
-                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.6s">
-                    <a href="#aim&scope" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Aim &
-                        Scope</a>
-                </div>
-                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="0.8s">
-                    <a href="#editorialBoard"
-                        class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Editoral Board</a>
-                </div>
-                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1s">
-                    <a href="#reviewerBoard" class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Reviewer
-                        Board</a>
-                </div>
-                <div class="col col-12 col-md-5 col-lg-4 col-xl-2 p-2 m-0 wow fadeInDown" data-wow-delay="1.2s">
-                    <a href="#authorGuidelines"
-                        class="btn btn-outline-dark rounded-pill px-4 small w-100 text-nowrap">Author Guidelines</a>
-                </div>
-            </div>
+                 </div>
         </div>
     </div>
+</div>
 
     <div class="container-fluid feature bg-light py-5">
 
@@ -104,12 +129,12 @@
         </div>
 
     </div>
-    <div class="container-fluid py-5" id="aim-scope">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8">
 
-                    <div  class="ircs-section p-2 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div id="aim-scope"  class="ircs-section p-2 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Aim & Scope</h2>
                         <p>Integrative Research in Computer Science (IRCS) menerbitkan karya asli yang telah ditinjau
                             sejawat, yang mencerminkan sifat integratif dari ilmu komputer di berbagai disiplin ilmu. Jurnal
@@ -166,7 +191,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4">
+                <div class="col-xl-4" id="authorGuidelines">
                     <div class="position-sticky" style="top: 1.5rem;">
                         <div class="p-4 rounded border bg-light mb-4 text-center wow fadeInUp" data-wow-delay="0.3s">
                             <h4 class="mb-1">Author Guidelines</h4>
@@ -177,7 +202,7 @@
                             <small class="d-block text-center">Subject email: <span class="fw-bold">Manuscript Submission</span></small>
                         </div>
 
-                        <div class="p-4 rounded text-center border mb-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="p-4 rounded text-center border mb-4 wow fadeInUp" data-wow-delay="0.4s" id="template-fee">
                             <h4 class="mb-1 text-center text-primary">Template & Fee</h4>
                             <p class="text-center">Anda dapat mengirimkan artikel dalam format bebas, atau menggunakan template kami.</p>
                             <a href="#" class="btn btn-outline-primary fw-normal rounded-pill w-100 mb-3">

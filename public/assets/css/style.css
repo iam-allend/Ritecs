@@ -115,6 +115,94 @@ html{
     margin: auto; /* Tengah secara horizontal */
     display: block;
 }
+/* custom ircs */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.display-5 {
+    font-weight: 600;
+    color: var(--bs-dark);
+}
+
+.lead.text-muted {
+    font-size: 1.1rem;
+    color: #6c757d !important;
+}
+
+.sidebar-nav .nav-link {
+    color: var(--bs-dark);
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+}
+
+.sidebar-nav .nav-link:hover,
+.sidebar-nav .nav-link.active {
+    color: var(--bs-primary);
+    background-color: rgba(1, 95, 201, 0.05);
+    border-left-color: var(--bs-primary);
+    transform: translateX(5px);
+}
+
+.sidebar-nav .nav-link i {
+    width: 20px;
+    color: #adb5bd;
+    transition: color 0.3s ease;
+}
+
+.sidebar-nav .nav-link:hover i,
+.sidebar-nav .nav-link.active i {
+    color: var(--bs-primary);
+}
+
+.ircs-section {
+    margin-bottom: 3rem;
+}
+
+.ircs-section h3 {
+    font-weight: 600;
+    color: var(--bs-dark);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--bs-primary);
+    display: inline-block;
+}
+
+.topic-list {
+    list-style-type: none;
+    padding-left: 0;
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.topic-list li {
+    padding-bottom: 0.75rem;
+    break-inside: avoid-column;
+    color: #495057;
+}
+
+.topic-list li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--bs-primary);
+    margin-right: 12px;
+    font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+    .topic-list {
+        column-count: 1;
+    }
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.04) !important;
+}
+
+/* ircs end */
 /* CUSTOM CSS DEVELOPING END*/
 
 
