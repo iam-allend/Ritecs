@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ChatbotController;
+use App\Http\Controllers\ProfileController;
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -21,6 +23,13 @@ Route::get('/ircs-journal', [PageController::class, 'ircsJournal'])->name('ircs-
 // Route contact
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+
+Route::prefix('')->group(function () {
+    Route::get('/dashboard', [ProfileController::class, 'dashboard'])->name('profile.dashboard');
+    Route::get('/member', [ProfileController::class, 'member'])->name('profile.member');
+    Route::get('/settings', [ProfileController::class, 'settings'])->name('profile.settings');
+});
 
 
 
@@ -44,21 +53,21 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 
 
 // chatbot routes
-Route::get('/chatbot', [ChatbotController::class, 'showChat'])->name('chatbot.show');
-Route::post('/chatbot/send', [ChatbotController::class, 'sendMessage'])->name('chatbot.send');
-use Gemini\Laravel\Facades\Gemini; // <-- Pastikan ini ada di atas file
+// Route::get('/chatbot', [ChatbotController::class, 'showChat'])->name('chatbot.show');
+// Route::post('/chatbot/send', [ChatbotController::class, 'sendMessage'])->name('chatbot.send');
+// use Gemini\Laravel\Facades\Gemini; // <-- Pastikan ini ada di atas file
 
-Route::get('/test-gemini', function () {
-    try {
-        // Kita hanya perlu memanggil metode sederhana untuk tes,
-        // tidak perlu mengirim chat. Ini untuk membuktikan class-nya bisa dimuat.
-        $result = Gemini::models()->list(); 
+// Route::get('/test-gemini', function () {
+//     try {
+//         // Kita hanya perlu memanggil metode sederhana untuk tes,
+//         // tidak perlu mengirim chat. Ini untuk membuktikan class-nya bisa dimuat.
+//         $result = Gemini::models()->list(); 
 
-        return '✅ SUKSES: Paket Gemini berhasil dimuat oleh Laravel!';
+//         return '✅ SUKSES: Paket Gemini berhasil dimuat oleh Laravel!';
 
-    } catch (\Throwable $e) {
-        // Jika terjadi error, kita akan menampilkannya langsung di browser.
-        // Ini akan memberikan pesan error yang lebih jelas.
-        return '❌ GAGAL: Terjadi error. Pesan: <pre>' . $e->getMessage() . '</pre>';
-    }
-});
+//     } catch (\Throwable $e) {
+//         // Jika terjadi error, kita akan menampilkannya langsung di browser.
+//         // Ini akan memberikan pesan error yang lebih jelas.
+//         return '❌ GAGAL: Terjadi error. Pesan: <pre>' . $e->getMessage() . '</pre>';
+//     }
+// });
