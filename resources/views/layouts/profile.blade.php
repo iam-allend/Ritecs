@@ -48,14 +48,14 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container mt-3">
     <div class="row">
         <!-- Sidebar Desktop -->
-        <div class="col-md-3 col-lg-2 d-none d-md-block sidebar bg-white mt-3 rounded shadow-sm">
+        <div class="col-md-3 col-lg-2 d-none d-md-block sidebar bg-white mt-3 mb-5 rounded shadow-sm">
             <div class="sidebar-sticky pt-3">
-                <div class="text-center mb-2">
+                <!-- <div class="text-center mb-2">
                     <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
-                </div>
+                </div> -->
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Dashboard' ? 'active' : '' }}" href="{{ route('profile.dashboard') }}">
@@ -104,7 +104,7 @@
         </div>
 
         <!-- Konten -->
-        <main class="col-md-9 col-lg-10 ms-sm-auto px-md-4 pt-3">
+        <main class="col-md-9 col-lg-10 ms-sm-auto px-md-4 pt-3 mb-5">
             
             <div class="container-md bg-white p-4 rounded shadow-sm">
                 <span class="d-flex d-md-none flex-nowrap text-nowrap mb-3 text-right w-100">
