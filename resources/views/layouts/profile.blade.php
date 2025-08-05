@@ -30,6 +30,7 @@
         <!-- Template Stylesheet -->
         <link href="assets/css/style.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.webp">
+        <link href="assets/css/profile.css" rel="stylesheet">
     
     </head>
 
@@ -37,19 +38,24 @@
 
 <!-- Navbar untuk Mobile -->
 <nav class="navbar navbar-light bg-white border-bottom d-md-none">
-    <div class="container">
-        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">
+    <div class="container px-4">
+        <div class="text-center d-flex align-items-center h-100">
+            <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
+        </div>
+        <button class="btn btn-dark btn-login-me" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">
             <i class="bi bi-list"></i>
-        </button>
-        <span class="navbar-text fw-bold">Profile</span>
+        </button>    
     </div>
 </nav>
 
 <div class="container">
     <div class="row">
         <!-- Sidebar Desktop -->
-        <div class="col-md-3 col-lg-2 d-none d-md-block sidebar bg-white mt-3 rounded">
+        <div class="col-md-3 col-lg-2 d-none d-md-block sidebar bg-white mt-3 rounded shadow-sm">
             <div class="sidebar-sticky pt-3">
+                <div class="text-center mb-2">
+                    <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
+                </div>
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Dashboard' ? 'active' : '' }}" href="{{ route('profile.dashboard') }}">
@@ -57,7 +63,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title ?? '') === 'Member' ? 'active' : '' }}" href="{{ route('profile.member') }}">
+                        <a class="nav-link {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('profile.member') }}">
                             <i class="bi bi-people me-2"></i> Member
                         </a>
                     </li>
@@ -71,7 +77,7 @@
         </div>
 
         <!-- Sidebar Offcanvas Mobile -->
-        <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="sidebarOffcanvas">
+        <div class="offcanvas offcanvas-start d-md-none " tabindex="-1" id="sidebarOffcanvas">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title">Menu</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -99,7 +105,12 @@
 
         <!-- Konten -->
         <main class="col-md-9 col-lg-10 ms-sm-auto px-md-4 pt-3">
-            <div class="container-md bg-white p-4 rounded">
+            
+            <div class="container-md bg-white p-4 rounded shadow-sm">
+                <span class="d-flex d-md-none flex-nowrap text-nowrap mb-3 text-right w-100">
+                    <a href="" class="normal-text">Profile/</a>
+                    <a href="#" class="text-dark">Dashboard</a>
+                </span>
                 @yield('content')
             </div>
         </main>
