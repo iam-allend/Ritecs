@@ -203,6 +203,107 @@ html{
 }
 
 /* ircs end */
+/* member */
+
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.pricing-card .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid #e9ecef;
+    padding: 1.25rem;
+}
+
+.pricing-card .card-header .card-title {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: var(--bs-dark);
+}
+
+.pricing-card .price-tag {
+    color: var(--bs-primary);
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card .list-group-item {
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: #495057;
+}
+
+.pricing-card .list-group-item i {
+    color: var(--bs-primary);
+    font-size: 1.1rem;
+}
+
+.pricing-card .list-group-item.text-muted i {
+    color: #ced4da;
+}
+
+.pricing-card .card-footer {
+    background-color: transparent;
+    border-top: 1px solid #e9ecef;
+    padding: 1.25rem;
+    margin-top: auto;
+}
+
+
+.pricing-card.popular {
+    border: 2px solid var(--bs-primary);
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(102, 163, 233, 0.1);
+    position: relative;
+}
+
+.pricing-card.popular::before {
+    content: 'Membership';
+    position: absolute;
+    top: 1rem;
+    right: -25px;
+    transform: rotate(45deg);
+    background-color: var(--bs-primary);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 2rem;
+    z-index: 10;
+}
+
+
+.benefit-card {
+    background-color: #f8f9fa; 
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+    background-color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 50%;
+    background-color: var(--bs-white);
+    color: var(--bs-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* member end */
 /* CUSTOM CSS DEVELOPING END*/
 
 

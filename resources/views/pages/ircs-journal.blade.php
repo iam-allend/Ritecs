@@ -33,7 +33,7 @@
                         <div class="sidebar-nav">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="tujuan"><i class="fas fa-archive me-2"></i>Tujuan & Ruang Lingkup</a>
+                                    <a class="nav-link" href="#tujuan"><i class="fas fa-archive me-2"></i>Tujuan & Ruang Lingkup</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#aim-scope"><i class="fas fa-bullseye me-2"></i>Aim-Scope</a>

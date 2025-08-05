@@ -6,14 +6,18 @@ Start([Start]) --> Web([Web Ritecs])
 %% MAIN MENU
 Web --> Beranda[Beranda] --> End
 Web --> Tentang[Tentang] --> End
-Web --> Publish[Publish] --> End
-Web --> Bantuan[Bantuan] --> End
+Web --> Publish[Publish] 
+Publish --> Buku[Buku] --> DetailBuku2[Detail Buku] --> End
+Publish --> Jurnal[Jurnal] --> DetailJurnal2[Detail Jurnal] --> End
+Web --> Bantuan[Bantuan]
+Bantuan --> PetunjukPenulis[Petunjuk Penulis] --> End
 Web --> Layanan[Halaman Layanan]
 Web --> Login[/Form Login/]
 Web --> Register[/Form Register/]
-Web --> Kontak[/Form Kontak/]
+
 
 %% CONTACT FLOW (LEFT)
+Bantuan --> Kontak[Form Kontak]
 Kontak --> KontakSend{Kirim Form Berhasil?}
 KontakSend -->|Ya| KontakSuccess([Pesan Terkirim]) --> End
 KontakSend -->|Tidak| Kontak

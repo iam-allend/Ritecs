@@ -43,5 +43,10 @@ class PageController extends Controller
     {
         return view('pages.ircs-journal', ['title' => 'IRCS Journal']);
     }
+    public function membership()
+    {
+        return view('pages.membership', ['title' => 'Membership']);
+    }
+    
 
 }

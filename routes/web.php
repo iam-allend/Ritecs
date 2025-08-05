@@ -18,6 +18,7 @@ Route::get('/service', [PageController::class, 'service'])->name('service');
 Route::get('/detail-buku', [PageController::class, 'detailBuku'])->name('detail-buku');
 Route::get('/petunjuk-penulis', [PageController::class, 'petunjukPenulis'])->name('petunjuk-penulis');
 Route::get('/ircs-journal', [PageController::class, 'ircsJournal'])->name('ircs-journal');
+Route::get('/membership', [PageController::class, 'membership'])->name('membership');
 
 
 // Route contact
