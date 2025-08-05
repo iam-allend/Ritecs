@@ -186,7 +186,6 @@ html{
 }
 
 .btn.btn-primary {
-    color: var(--bs-white) !important;
     border: none;
 }
 
