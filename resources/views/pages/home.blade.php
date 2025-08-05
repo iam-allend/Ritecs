@@ -109,11 +109,11 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-users fa-3x"></i>
                             </div>
-                            <h4 class="mb-4">MemberShip</h4>
+                            <h4 class="mb-4">Membership</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
                                 pariatur...
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                           <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
