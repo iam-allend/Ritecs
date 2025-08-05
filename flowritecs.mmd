@@ -1,53 +1,83 @@
-flowchart TD
-    %% START
-    Start([Mulai: Pengguna Membuka Website])
-    Start --> Nav{Pilih Menu Navigasi?}
+flowchart TB
+classDef blank fill:none,stroke:none;
 
-    %% MENU PENGUNJUNG (PROSES)
-    Nav -->|Beranda| Beranda[Beranda]
-    Nav -->|Tentang| Tentang[Halaman Tentang]
-    Nav -->|Layanan| Layanan[Daftar Layanan] --> LayananDetail[Detail Layanan]
-    Nav -->|Publish| Publish[Daftar Buku/Jurnal] --> PublishDetail[Detail Buku/Jurnal]
+%% START
+Start([Start]) --> Web([Web Ritecs])
+%% MAIN MENU
+Web --> Beranda[Beranda] --> End
+Web --> Tentang[Tentang] --> End
+Web --> Publish[Publish] --> End
+Web --> Bantuan[Bantuan] --> End
+Web --> Layanan[Halaman Layanan]
+Web --> Login[/Form Login/]
+Web --> Register[/Form Register/]
+Web --> Kontak[/Form Kontak/]
 
-    %% FORM KONTAK 
-    Nav -->|Contact Us| Contact[/Form Kontak/]
-    Contact --> ContactSend{Kirim Form Berhasil?}
-    ContactSend -->|Ya| ContactSuccess([Pesan Terkirim])
-    ContactSend -->|Tidak| Contact
+%% CONTACT FLOW (LEFT)
+Kontak --> KontakSend{Kirim Form Berhasil?}
+KontakSend -->|Ya| KontakSuccess([Pesan Terkirim]) --> End
+KontakSend -->|Tidak| Kontak
 
-    %% LOGIN/REGISTER
-    Nav -->|Login/Register| LoginRegister[/Form Login/Register/]
-    LoginRegister --> LoginSuccess{Login Berhasil?}
-    LoginSuccess -->|Tidak| Start
-    LoginSuccess -->|Ya| RoleCheck{Role User?}
+%% LAYANAN (LEFT)
+Layanan --> PBuku[Penerbitan Buku] --> DetailBuku[Detail Layanan Penerbitan Buku] --> End
+Layanan --> PJurnal[Penerbitan Jurnal] --> DetailJurnal[Detail Layanan Penerbitan Jurnal] --> End
+Layanan --> Proofreading[Translate & Proofreading] --> DetailProof[Detail Layanan Translate & Proofreading] --> End
+Layanan --> Penyuntingan[Penyuntingan Naskah] --> DetailEdit[Detail Layanan Penyuntingan Naskah] --> End
+Layanan --> MembershipPage[Membership Page] 
 
-    %% ROLE
-    RoleCheck -->|Member| M_Dashboard[Dashboard Member]
-    RoleCheck -->|Admin| A_Dashboard[Dashboard Admin]
+%% LOGIN FLOW (CENTER)
+Login --> CheckSession{Session LoggedIn?}
+CheckSession -->|Yes| RedirectProfile[Redirect to Profile/Membership] --> DashboardMember[Dashboard Member]
+CheckSession -->|No| ShowLogin[/Show Login Form/]
 
-    %% FLOW MEMBER (PROSES)
-    M_Dashboard --> M_Aksi{Menu Member?}
-    M_Aksi -->|Kelola Profil| M_Profile[Kelola Profil]
-    M_Aksi -->|Membership| M_Membership[Status Membership]
-    M_Aksi -->|Buku| M_Buku[Buku]
-    M_Aksi -->|Jurnal| M_Jurnal[Jurnal]
+ShowLogin --> InputLogin[/Input Data Login/]
+InputLogin --> CheckLogin{Data Login Valid?}
+CheckLogin -->|No| LoginFailed[Send Failed Notification] --> RedisplayLogin[/ReDisplay Login Form/] --> Login
+CheckLogin -->|Yes| CheckRole{Role is Admin?}
 
-    %% FLOW ADMIN (PROSES)
-    A_Dashboard --> A_Kelola_Beranda[Kelola Beranda]
-    A_Dashboard --> A_Kelola_Penerbitan[Kelola Penerbitan]
-    A_Dashboard --> A_Kelola_Member[Kelola Member]
-    A_Dashboard --> A_Kelola_Pesan[Kelola Pesan Masuk]
-    A_Kelola_Penerbitan --> A_Kelola_Buku[Kelola Buku]
-    A_Kelola_Penerbitan --> A_Kelola_Jurnal[Kelola Jurnal]
+CheckRole -->|True| DashboardAdmin[Dashboard Admin]
+CheckRole -->|False| DashboardMember
 
-    %% END POINT
-    ContactSuccess --> End([Selesai])
-    M_Profile --> End
-    M_Membership --> End
-    M_Buku --> End
-    M_Jurnal --> End
-    A_Kelola_Beranda --> End
-    A_Kelola_Buku --> End
-    A_Kelola_Jurnal --> End
-    A_Kelola_Member --> End
-    A_Kelola_Pesan --> End
+%% ADMIN DASHBOARD
+DashboardAdmin --> KelolaBeranda[Kelola Beranda] --> End
+DashboardAdmin --> KelolaTentang[Kelola Tentang] --> End 
+DashboardAdmin --> KelolaLayanan[Kelola Layanan] --> End
+DashboardAdmin --> KelolaJurnal[Kelola Jurnal] --> End
+DashboardAdmin --> KelolaPenerbitan[Kelola Penerbitan] --> End
+DashboardAdmin --> KelolaMember[Kelola Member] --> End
+DashboardAdmin --> KelolaBuku[Kelola Buku Terbit] --> End
+DashboardAdmin --> KelolaProfile[Kelola Profile] --> End
+
+%% MEMBER DASHBOARD
+DashboardMember --> MembershipPage
+DashboardMember --> Settings[Settings] 
+DashboardMember --> DetailMemberBuku[Detail Buku] --> End
+DashboardMember --> DetailMemberJurnal[Detail Jurnal] --> End
+DashboardMember --> DetailMemberLayanan[Detail Layanan] --> End
+Settings --> KelolaProfileMember -->  End
+%% REGISTER FLOW (RIGHT)
+Register --> CheckSessionReg{Session LoggedIn?}
+CheckSessionReg -->|Yes| RedirectProfile2[Redirect to Profile/Membership] --> DashboardMember
+CheckSessionReg -->|No| PunyaAkun{Punya Akun?}
+
+PunyaAkun -->|Yes| ShowLogin2[/Show Login Form/] --> Login
+PunyaAkun -->|No| ShowRegister[/Show Register Form/]
+
+ShowRegister --> InputRegister[/Input Data Register/]
+InputRegister --> CheckRegister{Check Data Valid?}
+CheckRegister -->|No| RegisterFailed[Send Failed Notification] --> RedisplayRegister[/ReDisplay Register Form/] --> Register
+CheckRegister -->|Yes| RegisterSuccess[Send Successful Notification] --> MembershipDecision{Membership Berbayar?}
+
+%% MEMBERSHIP & PAYMENT FLOW (BOTTOM-RIGHT)
+MembershipPage --> MembershipDecision
+MembershipDecision -->|No| RedirectFree[Redirect to Profile/Membership] --> DashboardMember
+MembershipDecision -->|Yes| RedirectPayment[Redirect to Membership Payment]
+
+RedirectPayment --> PaymentStart[Start Payment Process]
+PaymentStart --> InterfacePayment[/Interface Detail Payment/]
+InterfacePayment --> CheckPayment{Payment Valid?}
+CheckPayment -->|No| PaymentFailed[Send Failed Notification] --> RedisplayPayment[/ReDisplay Payment Form/] --> PaymentStart
+CheckPayment -->|Yes| PaymentSuccess[Send Successful Notification] --> RedirectProfile3[Redirect to Profile/Membership] --> DashboardMember
+
+%% END
+End([End])
