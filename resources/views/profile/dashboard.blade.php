@@ -18,7 +18,7 @@
     <div class="row g-3">
         <!-- Card Statistik -->
         <div class="col-md-4">
-            <div class="card rounded">
+            <div class="card card-dashboard rounded">
                 <div class="card-body">
                     <h6 class="card-title text-muted">Total Publikasi</h6>
                     <h3 class="fw-bold text-dark">12</h3>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card rounded border border-primary">
+            <div class="card card-dashboard rounded border border-primary">
                 <div class="card-body">
                     <h6 class="card-title text-muted">Member Aktif</h6>
                     <h3 class="fw-bold text-primary">58 <span class="h4 text-primary">Hari</span></h3>
@@ -36,8 +36,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card rounded">
-                <div class="card-body">
+            <div class="card card-dashboard rounded h-100">
+                <div class="card-body ">
                     <h6 class="card-title text-muted">Unduhan</h6>
                     <h3 class="fw-bold normal-text">24</h3>
                     <small class="text-muted">Unduhan Jurnal/E-Book</small>
@@ -45,6 +45,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- Grafik / Info tambahan -->
     <div class="row mt-3">

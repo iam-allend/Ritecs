@@ -51,12 +51,17 @@
 <div class="container mt-3">
     <div class="row">
         <!-- Sidebar Desktop -->
-        <div class="col-md-3 col-lg-2 d-none d-md-block sidebar bg-white mt-3 mb-5 rounded shadow-sm">
-            <div class="sidebar-sticky pt-3">
+        <div class="col-md-3 col-xl-2 d-none d-md-block sidebar bg-white mt-3 mb-5 rounded shadow-sm">
+            <div class="sidebar-sticky py-3">
                 <!-- <div class="text-center mb-2">
                     <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
                 </div> -->
                 <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link " href="{{ route('home') }}">
+                            <i class="bi bi-house-up me-2"></i> Beranda
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Dashboard' ? 'active' : '' }}" href="{{ route('profile.dashboard') }}">
                             <i class="bi bi-speedometer2 me-2"></i> Dashboard
@@ -64,7 +69,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('profile.member') }}">
-                            <i class="bi bi-people me-2"></i> Member
+                            <i class="bi bi-people me-2"></i> Membership
                         </a>
                     </li>
                     <li class="nav-item">
@@ -85,13 +90,18 @@
             <div class="offcanvas-body">
                 <ul class="nav flex-column">
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home') }}">
+                            <i class="bi bi-house-up me-2"></i> Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Dashboard' ? 'active' : '' }}" href="{{ route('profile.dashboard') }}">
                             <i class="bi bi-speedometer2 me-2"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ ($title ?? '') === 'Member' ? 'active' : '' }}" href="{{ route('profile.member') }}">
-                            <i class="bi bi-people me-2"></i> Member
+                            <i class="bi bi-people me-2"></i> Membership
                         </a>
                     </li>
                     <li class="nav-item">
@@ -104,13 +114,13 @@
         </div>
 
         <!-- Konten -->
-        <main class="col-md-9 col-lg-10 ms-sm-auto px-md-4 pt-3 mb-5">
+        <main class="col-md-9 col-xl-10 ms-sm-auto px-md-4 pt-3 mb-5">
             
-            <div class="container-md bg-white p-4 rounded shadow-sm">
-                <span class="d-flex d-md-none flex-nowrap text-nowrap mb-3 text-right w-100">
+            <div class="container-md bg-white p-4 rounded shadow-sm container-main">
+                <!-- <span class="d-flex d-md-none flex-nowrap text-nowrap mb-3 text-right w-100">
                     <a href="" class="normal-text">Profile/</a>
                     <a href="#" class="text-dark">Dashboard</a>
-                </span>
+                </span> -->
                 @yield('content')
             </div>
         </main>
