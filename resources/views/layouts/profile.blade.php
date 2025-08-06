@@ -48,11 +48,15 @@
     </div>
 </nav>
 
-<div class="container mt-3">
+<div class="container mt-4">
+    <div class="w-100 text-start align-items-center justify-content-between pe-3 d-none d-md-flex">
+        <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
+        <span class="small p-0 m-0">Riset dan Inovasi pada Teknologi Computer Science</span>
+    </div>
     <div class="row">
         <!-- Sidebar Desktop -->
         <div class="col-md-3 col-xl-2 d-none d-md-block sidebar bg-white mt-3 mb-5 rounded shadow-sm">
-            <div class="sidebar-sticky py-3">
+            <div class="sidebar-sticky pb-3">
                 <!-- <div class="text-center mb-2">
                     <img src="{{ asset('assets/img/logo/logo-text.webp') }}" alt="Logo Ritecs" class="img-fluid sidebar-logo">
                 </div> -->
@@ -115,12 +119,7 @@
 
         <!-- Konten -->
         <main class="col-md-9 col-xl-10 ms-sm-auto px-md-4 pt-3 mb-5">
-            
-            <div class="container-md bg-white p-4 rounded shadow-sm container-main">
-                <!-- <span class="d-flex d-md-none flex-nowrap text-nowrap mb-3 text-right w-100">
-                    <a href="" class="normal-text">Profile/</a>
-                    <a href="#" class="text-dark">Dashboard</a>
-                </span> -->
+            <div class="container-md bg-white p-4 rounded shadow-sm container-main border border-5 border-bottom-0 border-start-0 border-end-0 border-primary">
                 @yield('content')
             </div>
         </main>

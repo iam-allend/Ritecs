@@ -18,7 +18,7 @@
     <div class="row g-3">
         <!-- Card Statistik -->
         <div class="col-md-4">
-            <div class="card card-dashboard rounded">
+            <div class="card card-dashboard rounded ">
                 <div class="card-body">
                     <h6 class="card-title text-muted">Total Publikasi</h6>
                     <h3 class="fw-bold text-dark">12</h3>

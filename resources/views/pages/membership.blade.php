@@ -37,12 +37,13 @@
                         <p class="mt-2">Untuk memulai dan mencoba fitur dasar kami.</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses ke artikel gratis</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Login/Register</li>
-                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Potongan harga member</li>
-                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Mentor profesional</li>
-                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Bimbingan privat</li>
-                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Grub diskusi eksklusif</li>
+                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses buku/jurnal gratis</li>
+                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Akses layanan publikasi Buku</li>
+                        <li class="list-group-item text-muted"><i class="fas fa-times-circle me-2"></i>Akses layanan publikasi Jurnal</li>
+                        <li class="list-group-item text-muted "><i class="fas fa-times-circle me-2"></i>Potongan harga member</li>
+                        <li class="list-group-item text-muted "><i class="fas fa-times-circle me-2"></i>Bimbingan mentor profesional</li>
+                        <li class="list-group-item text-muted "><i class="fas fa-times-circle me-2"></i>Grup diskusi ekslusif</li>
+
                     </ul>
                     <div class="card-footer text-center">
                         <a href="#" class="btn btn-outline-primary rounded-pill w-100">Pilih Paket</a>
@@ -64,12 +65,12 @@
                         <p class="mt-2">Pilihan terbaik untuk akses penuh dan benefit maksimal.</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses ke artikel gratis</li>
-                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Login/Register</li>
+                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses buku/jurnal gratis</li>
+                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses layanan publikasi Buku</li>
+                        <li class="list-group-item"><i class="fas fa-check-circle me-2"></i>Akses layanan publikasi Jurnal</li>
                         <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Potongan harga member</li>
-                        <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Mentor profesional</li>
-                        <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Bimbingan privat</li>
-                        <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Grub diskusi eksklusif</li>
+                        <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Bimbingan mentor profesional</li>
+                        <li class="list-group-item "><i class="fas fa-check-circle me-2"></i>Grup diskusi ekslusif</li>
                     </ul>
                     <div class="card-footer text-center">
                         <a href="#" class="btn btn-primary rounded-pill w-100">Pilih Paket</a>
