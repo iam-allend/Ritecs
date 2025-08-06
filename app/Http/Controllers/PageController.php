@@ -47,6 +47,10 @@ class PageController extends Controller
     {
         return view('pages.membership', ['title' => 'Membership']);
     }
+    public function detailjurnal()
+    {
+        return view('pages.detail-jurnal', ['title' => 'Detail Jurnal']);
+    }
     
 
 }
