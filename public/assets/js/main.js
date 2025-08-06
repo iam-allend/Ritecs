@@ -169,26 +169,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
-//    Lokasi
+// Lokasi
 document.addEventListener("DOMContentLoaded", function () {
-    const findLocationBtn = document.getElementById("find-location-btn");
     const locationText = document.getElementById("location-text");
-
-    findLocationBtn.addEventListener("click", function (event) {
-        event.preventDefault();
-
+    function findLocationOnLoad() {
         if (navigator.geolocation) {
             locationText.textContent = "Mencari lokasi...";
-
             navigator.geolocation.getCurrentPosition(
                 successCallback,
                 errorCallback
             );
         } else {
-            locationText.textContent =
-                "Geolocation tidak didukung browser ini.";
+            locationText.textContent = "Geolocation tidak didukung browser ini.";
         }
-    });
+    }
+
+   
 
     async function successCallback(position) {
         const lat = position.coords.latitude;
@@ -208,6 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     "";
                 const country = data.address.country || "";
 
+                
                 locationText.textContent = `${city}, ${country}`;
             } else {
                 locationText.textContent = "Alamat tidak ditemukan.";
@@ -222,7 +219,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let message = "";
         switch (error.code) {
             case error.PERMISSION_DENIED:
-                message = "Semarang";
+               
+                message = "Semarang"; 
                 break;
             case error.POSITION_UNAVAILABLE:
                 message = "Informasi lokasi tidak tersedia.";
@@ -236,4 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         locationText.textContent = message;
     }
+
+    
+    findLocationOnLoad(); 
 });

@@ -86,8 +86,7 @@
                                 <i class="fas fa-book-open fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Buku</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Kami mendampingi Anda dalam proses penerbitan buku ber-ISBN dengan kualitas profesional. Mulai dari penyuntingan, tata letak, desain grafis, hingga publikasi, yang manjangkau pasar global.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
@@ -98,8 +97,7 @@
                                 <i class="fas fa-newspaper fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Kami menyediakan layanan penerbitan jurnal ilmiah yang kredibel, mulai dari pendampingan proses editorial, pengelolaan peer-review, hingga distribusi digital yang menjangkau pembaca global.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -110,8 +108,7 @@
                                 <i class="fas fa-users fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Membership</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Bergabunglah dalam membership RITECS dan nikmati berbagai manfaat, mulai dari akses informasi terkini, dukungan publikasi, hingga peluang kolaborasi untuk pengembangan karya akademik dan profesional Anda.
                             </p>
                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
@@ -314,7 +311,7 @@
                     <!-- <h4 class="text-primary">Blog</h4> -->
                     <h1 class="display-4 mb-4">News And Updates</h1>
                     <!-- <h3 class="display-4 mb-4">Book & Journal</h1> -->
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Dapatkan informasi terbaru seputar penerbitan buku dan jurnal, rilis terbaru, serta aktivitas RITECS.</p>
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center text-start">
@@ -422,7 +419,7 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show active"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body rounded">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione fuga officia consequatur doloribus sed at eum dolor minima et.
+                                            A: RITECS adalah lembaga penerbitan profesional yang menyediakan layanan publikasi buku, jurnal, dan pendampingan akademik.
                                         </div>
                                     </div>
                                 </div>
@@ -436,7 +433,7 @@
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            A: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores debitis culpa excepturi? Iusto minima molestias repellat? Eligendi, distinctio similique!
+                                            A: Ya, Anda bisa menerbitkan buku sendiri di RITECS. Kami menyediakan layanan penerbitan yang lengkap, mulai dari penyuntingan hingga penerbitan ber-ISBN.
                                         </div>
                                     </div>
                                 </div>
@@ -450,7 +447,7 @@
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, laudantium officia. Architecto repudiandae illum repellat autem. Qui ipsum aliquid exercitationem.
+                                            A: Biaya publikasi buku mulai dari Rp1.500.000, termasuk penyuntingan, tata letak, desain grafis, dan pengurusan ISBN.
                                         </div>
                                     </div>
                                 </div>
@@ -471,7 +468,8 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Team</h4>
                     <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">
+                        Kami memiliki tim ahli yang berdedikasi untuk memberikan layanan terbaik dalam penerbitan buku dan jurnal. Setiap anggota tim kami memiliki keahlian khusus yang mendukung visi dan misi RITECS.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -554,7 +552,8 @@
                 <div class="text-center mx-auto pb-5" style="max-width: 800px;">
                     <h4 class="text-primary wow fadeInUp" data-wow-delay="0.2s" >Testimonial</h4>
                     <h1 class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.4s" >What Our Customers Are Saying</h1>
-                    <p class="mb-0 wow fadeInUp" data-wow-delay="0.6s" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0 wow fadeInUp" data-wow-delay="0.6s" >
+                        Kami bangga telah membantu banyak penulis dan akademisi dalam menerbitkan karya mereka. Berikut adalah beberapa testimoni dari klien kami yang puas dengan layanan RITECS.
                     </p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
@@ -576,7 +575,9 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                     </div>
-                                    <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
+                                    <p class="mb-0">
+                                        "Pelayanan RITECS sangat profesional dan responsif. Proses penerbitan buku saya berjalan lancar, mulai dari penyuntingan hingga terbit ber-ISBN. Sangat direkomendasikan untuk penulis pemula maupun profesional!"
+                                    </p>
                                     </p>
                                 </div>
                             </div>

@@ -9,7 +9,8 @@
                 <!-- <h4 class="text-primary">Blog</h4> -->
                 <h1 class="display-4 mb-4">News And Updates</h1>
                 <!-- <h3 class="display-4 mb-4">Book & Journal</h1> -->
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">
+                    RITECS menyediakan berbagai layanan penerbitan buku dan jurnal ilmiah, mulai dari penyuntingan naskah, penerjemahan, hingga penerbitan ber-ISBN. Kami berkomitmen untuk mendukung penulis dan akademisi dalam mewujudkan karya mereka.
                 </p>
             </div>
         </div>

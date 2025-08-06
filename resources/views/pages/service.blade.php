@@ -104,9 +104,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Layanan Kami</h4>
                     <h1 class="display-4 mb-4">Apa yang Kami Tawarkan</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint
-                        dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">RITECS menyediakan berbagai layanan penerbitan buku dan jurnal ilmiah, mulai dari penyuntingan naskah, penerjemahan, hingga penerbitan ber-ISBN. Kami berkomitmen untuk mendukung penulis dan akademisi dalam mewujudkan karya mereka.
                     </p>
                 </div>
 
@@ -117,8 +115,7 @@
                                 <i class="fas fa-book-open fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Buku</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Kami membantu menerbitkan buku ber-ISBN dengan kualitas profesional, dari penyuntingan hingga publikasi.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
@@ -129,8 +126,7 @@
                                 <i class="fas fa-newspaper fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Kami menyediakan layanan penerbitan jurnal ilmiah yang kredibel, mulai dari pendampingan proses editorial, pengelolaan peer-review, hingga distribusi digital yang menjangkau pembaca global.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -141,8 +137,7 @@
                                 <i class="fas fa-users fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Membership</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Bergabunglah dalam membership RITECS dan nikmati berbagai manfaat, mulai dari akses informasi terkini, dukungan publikasi, hingga peluang kolaborasi untuk pengembangan karya akademik dan profesional Anda.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('membership') }}">Learn More</a>
                         </div>

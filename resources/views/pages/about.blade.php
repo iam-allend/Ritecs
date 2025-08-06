@@ -97,9 +97,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Layanan Kami</h4>
                     <h1 class="display-4 mb-4">Apa yang Kami Tawarkan</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
-                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint
-                        dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Kami menyediakan berbagai layanan penerbitan buku dan jurnal, mulai dari penyuntingan, tata letak, desain grafis, hingga penerbitan ber-ISBN. Tim kami siap membantu Anda mewujudkan karya ilmiah dan kreatif Anda.
                     </p>
                 </div>
 
@@ -110,8 +108,7 @@
                                 <i class="fas fa-book-open fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Buku</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">Kami menyediakan layanan penerbitan buku lengkap, mulai dari penyuntingan, tata letak, desain grafis, hingga penerbitan ber-ISBN
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
@@ -134,8 +131,8 @@
                                 <i class="fas fa-users fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Membership</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4">
+                                Bergabunglah dengan komunitas kami untuk mendapatkan akses ke berbagai layanan dan sumber daya penerbitan. Dapatkan keuntungan eksklusif sebagai anggota.
                             </p>
                             <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
                         </div>
@@ -204,7 +201,7 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show active"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body rounded">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione fuga officia consequatur doloribus sed at eum dolor minima et.
+                                            A: RITECS adalah lembaga penerbitan yang menyediakan layanan penerbitan buku dan jurnal ilmiah. Kami berkomitmen untuk mendukung pengembangan ilmu pengetahuan dan budaya baca di Indonesia.
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +215,7 @@
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            A: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores debitis culpa excepturi? Iusto minima molestias repellat? Eligendi, distinctio similique!
+                                            A: Ya, Anda bisa menerbitkan buku sendiri di RITECS. Kami menyediakan layanan penerbitan yang lengkap, mulai dari penyuntingan hingga penerbitan ber-ISBN.
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +229,7 @@
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            A: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, laudantium officia. Architecto repudiandae illum repellat autem. Qui ipsum aliquid exercitationem.
+                                            A: Biaya penerbitan buku di RITECS bervariasi tergantung pada layanan yang Anda pilih. Kami menawarkan paket penerbitan yang fleksibel untuk memenuhi kebutuhan Anda.
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +251,7 @@
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Team</h4>
                     <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <p class="mb-0">Tim RITECS terdiri dari profesional berpengalaman di bidang penerbitan, desain, dan akademik, siap mendukung setiap langkah perjalanan publikasi Anda.
                     </p>
                 </div>
                 <div class="row g-4">

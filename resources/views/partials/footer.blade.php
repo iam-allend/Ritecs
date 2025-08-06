@@ -137,8 +137,7 @@
                     <div class="col-xl-3">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Newsletter</h4>
-                            <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <div class="position-relative rounded-pill mb-4">
+                            <p class="text-white mb-3">Subscribe to our newsletter for the latest updates.</p>       <div class="position-relative rounded-pill mb-4"></div>
                                 <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
                                 <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
                             </div>
