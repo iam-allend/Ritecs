@@ -21,7 +21,7 @@ Route::get('/ircs-journal', [PageController::class, 'ircsJournal'])->name('ircs-
 Route::get('/membership', [PageController::class, 'membership'])->name('membership');
 
 Route::get('/jurnal', [PageController::class, 'jurnal'])->name('jurnal');
-Route::get('/detailjurnal', [PageController::class, 'detailjurnal'])->name('detail-jurnal');
+Route::get('/detail-jurnal', [PageController::class, 'detailjurnal'])->name('detail-jurnal');
 
 // Route contact
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
