@@ -104,7 +104,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title ?? '') === 'Member' ? 'active' : '' }}" href="{{ route('profile.member') }}">
+                        <a class="nav-link {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('profile.member') }}">
                             <i class="bi bi-people me-2"></i> Membership
                         </a>
                     </li>

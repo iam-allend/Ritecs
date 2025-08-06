@@ -103,7 +103,7 @@
 
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-book-open fa-3x"></i>
                             </div>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-newspaper fa-3x"></i>
                             </div>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-users fa-3x"></i>
                             </div>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-th-large fa-3x"></i>
                             </div>
@@ -151,7 +151,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="1s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-drafting-compass fa-3x"></i>
                             </div>
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="feature-item p-4 pt-0">
+                        <div class="feature-item h-100 p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-language fa-3x"></i>
                             </div>
