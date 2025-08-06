@@ -144,21 +144,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8">
-                    <div id="current-volume" class="ircs-section p-3 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <h2 class="mb-4 display-6">Current Volume</h2>
-                        <h5 class="fw-bold">Vol. 1, No. 1 (Agustus, 2025)</h5>
-                        <p class="ms-3 mb-3">
-                            <a href=""><strong>Kombinasi Naive Bayes dan Chi-Square untuk Identifikasi SMS Penipuan | 1-22</strong></a>
-                            <br>
-                            <em class="text-muted">Aditya Priadi Pradana, Arry Maulana Syarif, Ika Novita Dewi, Candra Irawan</em>
-                        </p>
-                        <p class="ms-3 mb-3">
-                            <a href=""><strong>Deteksi dan Klasifikasi Citra Wajah Menggunakan MTCNN dan MobileNet | 23-39</strong></a>
-                            <br>
-                            <em class="text-muted">Riby Imanuel, Romy Nur Widianto Dafalah, Riko Christianto Putra Murdoko, Fikri Budiman, Muslih Muslih</em>
-                        </p>
-                    </div>
-                    <hr class="my-5">
                     <div id="aim-scope" class="ircs-section p-2 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Aim & Scope</h2>
                         <p>Integrative Research in Computer Science (IRCS) menerbitkan karya asli yang telah ditinjau
@@ -250,6 +235,21 @@
                                 Semarang, Indonesia)</em></p>
                         <p class="ms-3 mb-3">Budi Widjajanto, M.Kom. <br><em class="text-muted">(Universitas Dian
                                 Nuswantoro, Semarang, Indonesia)</em></p>
+                    </div>
+                    <hr class="my-5">
+                    <div id="current-volume" class="ircs-section p-3 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <h2 class="mb-4 display-6">Current Volume</h2>
+                        <h5 class="fw-bold">Vol. 1, No. 1 (Agustus, 2025)</h5>
+                        <p class="ms-3 mb-3">
+                            <a href=""><strong>Kombinasi Naive Bayes dan Chi-Square untuk Identifikasi SMS Penipuan | 1-22</strong></a>
+                            <br>
+                            <em class="text-muted">Aditya Priadi Pradana, Arry Maulana Syarif, Ika Novita Dewi, Candra Irawan</em>
+                        </p>
+                        <p class="ms-3 mb-3">
+                            <a href=""><strong>Deteksi dan Klasifikasi Citra Wajah Menggunakan MTCNN dan MobileNet | 23-39</strong></a>
+                            <br>
+                            <em class="text-muted">Riby Imanuel, Romy Nur Widianto Dafalah, Riko Christianto Putra Murdoko, Fikri Budiman, Muslih Muslih</em>
+                        </p>
                     </div>
 
                 </div>
