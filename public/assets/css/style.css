@@ -320,7 +320,97 @@ html{
     align-items: center;
     justify-content: center;
 }
-/* member end */
+/* member end */ 
+/* detail jurnal */
+/* --- Sidebar Navigation --- */
+        .sidebar-nav .nav-link {
+            color: #495057;
+            font-weight: 500;
+            padding: 0.75rem 1rem;
+            border-left: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-nav .nav-link:hover,
+        .sidebar-nav .nav-link.active {
+            color: #0d6efd; /* Bootstrap Primary Color */
+            background-color: rgba(13, 110, 253, 0.05);
+            border-left-color: #0d6efd;
+        }
+        
+        .sidebar-nav .nav-link .fa-fw {
+            margin-right: 0.5rem;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* --- Article Styling --- */
+        .article-header {
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .article-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #212529;
+            line-height: 1.4;
+        }
+        
+        .article-authors {
+            font-weight: 500;
+            color: #0d6efd;
+        }
+        
+        .article-meta {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+        
+        .article-section-title {
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+        
+        .abstract-text {
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .keywords-badge {
+            display: inline-block;
+            background-color: rgba(13, 110, 253, 0.1);
+            color: #0d6efd;
+            padding: 0.4rem 0.8rem;
+            border-radius: 50rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .citation-box {
+            background-color: #e9ecef;
+            border-left: 4px solid #0d6efd;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+        }
+        
+        .btn-download {
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
+        }
+/* detail jurnal end  */
 /* CUSTOM CSS DEVELOPING END*/
 
 
