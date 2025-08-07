@@ -9,7 +9,7 @@
             <div class="col-lg-3">
                 <div class="card p-3">
                     <nav class="nav flex-column sidebar-nav">
-                        <a class="nav-link" href="#"><i class="fas fa-arrow-left fa-fw"></i> Back</a>
+                        <a class="nav-link" href="{{ route('ircs-journal') }}"><i class="fas fa-arrow-left fa-fw"></i> Back</a>
 
                         <a class="nav-link active" href="#"><i class="fas fa-archive fa-fw"></i> Archive</a>
                     </nav>

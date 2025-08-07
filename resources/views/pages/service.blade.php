@@ -128,7 +128,7 @@
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
                             <p class="mb-4">Kami menyediakan layanan penerbitan jurnal ilmiah yang kredibel, mulai dari pendampingan proses editorial, pengelolaan peer-review, hingga distribusi digital yang menjangkau pembaca global.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Ircs Journal' ? 'active' : '' }}" href="{{ route('ircs-journal') }}">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
