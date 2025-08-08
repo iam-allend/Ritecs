@@ -28,7 +28,7 @@
                                         <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
                                         <a href="{{ route('service') }}"><i class="fas fa-angle-right me-2"></i> Services</a>
                                         <a href="{{ route('petunjuk-penulis') }}"><i class="fas fa-angle-right me-2"></i>Penerbitan Buku</a>
-                                        <a href="{{ route('ircs-journal') }}"><i class="fas fa-angle-right me-2"></i> Penerbitan Jurnal</a>
+                                        <a href="{{ route('journal') }}"><i class="fas fa-angle-right me-2"></i> Penerbitan Jurnal</a>
                                         <a href="{{ route('contact') }}"><i class="fas fa-angle-right me-2"></i> Contact</a>
                                     </div>
                                 </div>
