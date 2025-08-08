@@ -12,11 +12,11 @@
     <div class="container-fluid blog py-5 bg-white">
         <div class="container pb-5">
             
-            <div class="card mb-3 h-100 border-0">
+            <div class="card mb-3 h-100 border-0 shadow-none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <div class="blog-img rounded shadow-sm">
-                            <img src="{{ ('assets/img/book1.png') }}" class="img-fluid w-100 object-fit-contain rounded-start rounded-end" alt="...">
+                        <div class="blog-img rounded shadow">
+                            <img src="{{ ('assets/img/buku.png') }}" class="img-fluid w-100 object-fit-contain rounded-start rounded-end" alt="...">
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -63,7 +63,7 @@
                                     <span class="bi bi-upc-scan text-dark small"></span>
                                     <span>
                                         <span class="text-dark h6 ms-1"> ISBN : </span>
-                                        <span>Dalam Proses</span>
+                                        <span>978-634-04-1924-5</span>
                                     </span>
                                 </div>
                                 <div class="content my-1 d-flex">

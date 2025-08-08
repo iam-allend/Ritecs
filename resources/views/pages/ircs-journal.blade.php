@@ -151,7 +151,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8">
-
                     <div id="aim-scope" class="ircs-section p-2 p-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <h2 class="mb-4 display-6">Aim & Scope</h2>
                         <p>Integrative Research in Computer Science (IRCS) menerbitkan karya asli yang telah ditinjau

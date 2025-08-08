@@ -28,55 +28,29 @@
                     </p>
                 </div>
                 <div class="container-fuild">
-                    <div class="row g-4 justify-content-center text-start">
+                    <div class="row g-4 justify-content-start text-start">
     
-                        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="blog-item">
-                                <div class="blog-img rounded-top">
-                                    <img src="assets/img/book1.png" class="img-fluid rounded-top w-100" alt="">
-                                    <div class="blog-categiry py-1 px-4">
-                                        <span>Buku</span>
-                                    </div>
-                                </div>
-                                <div class="blog-content p-3">
-                                    <div class="blog-comment d-flex justify-content-between mb-2">
-                                        <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                       
-                                    </div>
-                                    <a href="#" class="h6 d-inline-block mb-2">Leverage agile frameworks to provide</a>
-                                    <div class="mb-2">
-                                        <span class="d-flex align-items-start gap-2">
-                                            <span class="text-dark my-1 my-md-0 small text-harga text-nowrap">Rp 27.999 (pdf)</span>
-                                            <span class="text-dark fw-bold my-1 my-md-0 small text-harga text-nowrap">Rp 91.777 (cetak)</span> 
-                                        </span>
-                                    </div>
-                                    <a href="{{ ('detail-buku')}}" class="p-0">Lihat Buku <i class="fa fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="blog-item ">
                                 <div class="blog-img rounded-top">
-                                    <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
+                                    <img src="assets/img/buku.png" class="img-fluid rounded-top w-100" alt="">
                                     <div class="blog-categiry py-1 px-4">
-                                        <span>Jurnal</span>
+                                        <span>Book & E-Book</span>
                                     </div>
                                 </div>
                                 <div class="blog-content p-3">
                                     <div class="blog-comment d-flex justify-content-between mb-2">
-                                        <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                       
+                                        <div class="small"><i class="bi bi-person-lines-fill text-primary me-1"></i></span>Arry Maulana Syarif, <span class="text-primary"> 2+ </span></div>
+                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 6 Aug 2025</div>
                                     </div>
-                                    <a href="#" class="h6 d-inline-block mb-2">Leverage agile frameworks to provide</a>
+                                    <a href="#" class="h6 d-inline-block mb-2">Pengantar Pipeline Animasi Berbasis AI</a>
                                     <div class="mb-2">
                                         <span class="d-flex align-items-start gap-2">
                                             <span class="text-dark my-1 my-md-0 small text-harga text-nowrap">Rp 27.999 (pdf)</span>
                                             <span class="text-dark fw-bold my-1 my-md-0 small text-harga text-nowrap">Rp 91.777 (cetak)</span> 
                                         </span>
                                     </div>
-                                    <a href="{{ ('detail-buku')}}" class="p-0">Lihat Buku <i class="fa fa-arrow-right"></i></a>
+                                    <a href="{{ ('detail-buku')}}" class="p-0 small">Lihat Buku <i class="fa fa-arrow-right small"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -85,48 +59,22 @@
                                 <div class="blog-img rounded-top">
                                     <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
                                     <div class="blog-categiry py-1 px-4">
-                                        <span>Buku</span>
+                                        <span>Book & E-Book</span>
                                     </div>
                                 </div>
                                 <div class="blog-content p-3">
                                     <div class="blog-comment d-flex justify-content-between mb-2">
-                                        <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                       
+                                        <div class="small"><i class="bi bi-person-lines-fill text-primary me-1"></i></span>Arry Maulana Syarif, <span class="text-primary"> 3+ </span></div>
+                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 1 Aug 2025</div>
                                     </div>
-                                    <a href="#" class="h6 d-inline-block mb-2">Leverage agile frameworks to provide</a>
+                                    <a href="#" class="h6 d-inline-block mb-2">Metodologi Penelitian Dalam Informatika: Konsep dan Aplikasi</a>
                                     <div class="mb-2">
                                         <span class="d-flex align-items-start gap-2">
-                                            <span class="text-dark my-1 my-md-0 small text-harga text-nowrap">Rp 27.999 (pdf)</span>
-                                            <span class="text-dark fw-bold my-1 my-md-0 small text-harga text-nowrap">Rp 91.777 (cetak)</span> 
+                                            <span class="text-dark my-1 my-md-0 small text-harga text-nowrap">Rp 50.999 (pdf)</span> -
+                                            <span class="text-dark fw-bold my-1 my-md-0 small text-harga text-nowrap">Rp 181.999 (cetak)</span> 
                                         </span>
                                     </div>
-                                    <a href="{{ ('detail-buku')}}" class="p-0">Lihat Buku <i class="fa fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="blog-item">
-                                <div class="blog-img rounded-top">
-                                    <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
-                                    <div class="blog-categiry py-1 px-4">
-                                        <span>Buku</span>
-                                    </div>
-                                </div>
-                                <div class="blog-content p-3">
-                                    <div class="blog-comment d-flex justify-content-between mb-2">
-                                        <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                        <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                       
-                                    </div>
-                                    <a href="#" class="h6 d-inline-block mb-2">Leverage agile frameworks to provide</a>
-                                    <div class="mb-2">
-                                        <span class="d-flex align-items-start gap-2">
-                                            <span class="text-dark my-1 my-md-0 small text-harga text-nowrap">Rp 27.999 (pdf)</span>
-                                            <span class="text-dark fw-bold my-1 my-md-0 small text-harga text-nowrap">Rp 91.777 (cetak)</span> 
-                                        </span>
-                                    </div>
-                                    <a href="{{ ('detail-buku')}}" class="p-0">Lihat Buku <i class="fa fa-arrow-right"></i></a>
+                                    <a href="{{ ('detail-buku')}}" class="p-0 small">Lihat Buku <i class="fa fa-arrow-right small"></i></a>
                                 </div>
                             </div>
                         </div>
