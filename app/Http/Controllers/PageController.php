@@ -56,6 +56,10 @@ class PageController extends Controller
     {
         return view('pages.detail-jurnal', ['title' => 'Detail Jurnal']);
     }
+    public function journal()
+    {
+        return view('pages.journal', ['title' => 'Jurnal']);
+    }
     
 
 }

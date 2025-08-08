@@ -32,7 +32,7 @@
                         <div class="price-tag">
                             <sup>Rp</sup>
                             <span class="display-4">0</span>
-                            <span class="text-muted">/bulan</span>
+                            <span class="text-muted">/Tahun</span>
                         </div>
                         <p class="mt-2">Untuk memulai dan mencoba fitur dasar kami.</p>
                     </div>
@@ -60,7 +60,7 @@
                         <div class="price-tag">
                             <sup>Rp</sup>
                             <span class="display-4">75K</span>
-                            <span class="text-muted">/bulan</span>
+                            <span class="text-muted">/Tahun</span>
                         </div>
                         <p class="mt-2">Pilihan terbaik untuk akses penuh dan benefit maksimal.</p>
                     </div>

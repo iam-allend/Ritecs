@@ -19,17 +19,17 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
         <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="assets/lib/animate/animate.min.css"/>
-        <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('assets/lib/animate/animate.min.css')}}"/>
+        <link href="{{ asset('assets/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+        <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="assets/css/style.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.webp">
+        <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/logo.webp')}}">
     
     </head>
 

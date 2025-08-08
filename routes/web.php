@@ -21,6 +21,7 @@ Route::get('/ircs-journal', [PageController::class, 'ircsJournal'])->name('ircs-
 Route::get('/membership', [PageController::class, 'membership'])->name('membership');
 
 Route::get('/jurnal', [PageController::class, 'jurnal'])->name('jurnal');
+Route::get('/journal', [PageController::class, 'journal'])->name('journal');
 Route::get('/detail-jurnal', [PageController::class, 'detailjurnal'])->name('detail-jurnal');
 
 // Route contact
@@ -56,21 +57,21 @@ Route::prefix('')->group(function () {
 
 
 // chatbot routes
-// Route::get('/chatbot', [ChatbotController::class, 'showChat'])->name('chatbot.show');
-// Route::post('/chatbot/send', [ChatbotController::class, 'sendMessage'])->name('chatbot.send');
-// use Gemini\Laravel\Facades\Gemini; // <-- Pastikan ini ada di atas file
+Route::get('/chatbot', [ChatbotController::class, 'showChat'])->name('chatbot.show');
+Route::post('/chatbot/send', [ChatbotController::class, 'sendMessage'])->name('chatbot.send');
+use Gemini\Laravel\Facades\Gemini; // <-- Pastikan ini ada di atas file
 
-// Route::get('/test-gemini', function () {
-//     try {
-//         // Kita hanya perlu memanggil metode sederhana untuk tes,
-//         // tidak perlu mengirim chat. Ini untuk membuktikan class-nya bisa dimuat.
-//         $result = Gemini::models()->list(); 
+Route::get('/test-gemini', function () {
+    try {
+        // Kita hanya perlu memanggil metode sederhana untuk tes,
+        // tidak perlu mengirim chat. Ini untuk membuktikan class-nya bisa dimuat.
+        $result = Gemini::models()->list(); 
 
-//         return '✅ SUKSES: Paket Gemini berhasil dimuat oleh Laravel!';
+        return '✅ SUKSES: Paket Gemini berhasil dimuat oleh Laravel!';
 
-//     } catch (\Throwable $e) {
-//         // Jika terjadi error, kita akan menampilkannya langsung di browser.
-//         // Ini akan memberikan pesan error yang lebih jelas.
-//         return '❌ GAGAL: Terjadi error. Pesan: <pre>' . $e->getMessage() . '</pre>';
-//     }
-// });
+    } catch (\Throwable $e) {
+        // Jika terjadi error, kita akan menampilkannya langsung di browser.
+        // Ini akan memberikan pesan error yang lebih jelas.
+        return '❌ GAGAL: Terjadi error. Pesan: <pre>' . $e->getMessage() . '</pre>';
+    }
+});
