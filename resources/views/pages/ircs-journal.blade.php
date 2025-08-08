@@ -15,7 +15,7 @@
     </div>
     <!-- Header End -->
 
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5" id="ircs-journal">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
                 <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=369,fit=crop/mp8J7x55XouwzNXQ/logo-ircs-jpg-dWxOgbGV0MH6aBMa.jpg"

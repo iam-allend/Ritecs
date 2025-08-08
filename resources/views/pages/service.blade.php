@@ -117,7 +117,7 @@
                             <h4 class="mb-4">Penerbitan Buku</h4>
                             <p class="mb-4">Kami membantu menerbitkan buku ber-ISBN dengan kualitas profesional, dari penyuntingan hingga publikasi.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}#petunjuk-penulis">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
@@ -128,7 +128,7 @@
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
                             <p class="mb-4">Kami menyediakan layanan penerbitan jurnal ilmiah yang kredibel, mulai dari pendampingan proses editorial, pengelolaan peer-review, hingga distribusi digital yang menjangkau pembaca global.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Ircs Journal' ? 'active' : '' }}" href="{{ route('ircs-journal') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Ircs Journal' ? 'active' : '' }}" href="{{ route('ircs-journal') }}#ircs-journal">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -139,7 +139,7 @@
                             <h4 class="mb-4">Membership</h4>
                             <p class="mb-4">Bergabunglah dalam membership RITECS dan nikmati berbagai manfaat, mulai dari akses informasi terkini, dukungan publikasi, hingga peluang kolaborasi untuk pengembangan karya akademik dan profesional Anda.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('membership') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('membership') }}#membership">Learn More</a>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">

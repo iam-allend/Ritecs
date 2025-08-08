@@ -24,11 +24,11 @@
                                 <div class="col-md-6 col-lg-6 col-xl-4">
                                     <div class="footer-item">
                                         <h4 class="text-white mb-4">Useful Links</h4>
-                                        <a href="{{ route('about') }}"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                                        <a href="{{ route('about') }}#visi-misi"><i class="fas fa-angle-right me-2"></i> About Us</a>
                                         <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
                                         <a href="{{ route('service') }}"><i class="fas fa-angle-right me-2"></i> Services</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                                        <a href="{{ route('petunjuk-penulis') }}"><i class="fas fa-angle-right me-2"></i>Penerbitan Buku</a>
+                                        <a href="{{ route('ircs-journal') }}"><i class="fas fa-angle-right me-2"></i> Penerbitan Jurnal</a>
                                         <a href="{{ route('contact') }}"><i class="fas fa-angle-right me-2"></i> Contact</a>
                                     </div>
                                 </div>

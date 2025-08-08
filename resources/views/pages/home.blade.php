@@ -88,7 +88,7 @@
                             <h4 class="mb-4">Penerbitan Buku</h4>
                             <p class="mb-4">Kami mendampingi Anda dalam proses penerbitan buku ber-ISBN dengan kualitas profesional. Mulai dari penyuntingan, tata letak, desain grafis, hingga publikasi, yang manjangkau pasar global.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}#petunjuk-penulis">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
@@ -99,7 +99,7 @@
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
                             <p class="mb-4">Kami menyediakan layanan penerbitan jurnal ilmiah yang kredibel, mulai dari pendampingan proses editorial, pengelolaan peer-review, hingga distribusi digital yang menjangkau pembaca global.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ route('ircs-journal') }}#ircs-journal">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -110,7 +110,7 @@
                             <h4 class="mb-4">Membership</h4>
                             <p class="mb-4">Bergabunglah dalam membership RITECS dan nikmati berbagai manfaat, mulai dari akses informasi terkini, dukungan publikasi, hingga peluang kolaborasi untuk pengembangan karya akademik dan profesional Anda.
                             </p>
-                           <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
+                           <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('membership') }}#membership">Learn More</a>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
@@ -316,84 +316,92 @@
                 </div>
                 <div class="row g-4 justify-content-center text-start">
 
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item">
-                            <div class="blog-img rounded-top">
-                                <img src="assets/img/book1.png" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-categiry py-1 px-4">
-                                    <span>Buku</span>
-                                </div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="blog-comment d-flex justify-content-between mb-2">
-                                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                </div>
-                                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit.   </p>
-                                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item ">
-                            <div class="blog-img rounded-top">
-                                <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-categiry py-1 px-4">
-                                    <span>Jurnal</span>
-                                </div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="blog-comment d-flex justify-content-between mb-2">
-                                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                </div>
-                                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit.   </p>
-                                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item">
-                            <div class="blog-img rounded-top">
-                                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-categiry py-1 px-4">
-                                    <span>Buku</span>
-                                </div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="blog-comment d-flex justify-content-between mb-2">
-                                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                </div>
-                                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit.   </p>
-                                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item">
-                            <div class="blog-img rounded-top">
-                                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-categiry py-1 px-4">
-                                    <span>Buku</span>
-                                </div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="blog-comment d-flex justify-content-between mb-2">
-                                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
-                                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
-                                </div>
-                                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                                <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit.   </p>
-                                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
+    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="blog-item">
+            <div class="blog-img rounded-top">
+                <img src="assets/img/book1.png" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-1 px-4">
+                    <span>Buku</span>
                 </div>
+            </div>
+            <div class="blog-content p-4">
+                <div class="blog-comment d-flex justify-content-between mb-2">
+                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
+                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
+                </div>
+                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
+                <p class="mb-3">Buku ini menyajikan wawasan mendalam dengan pendekatan yang mudah dipahami, 
+                membantu pembaca menguasai konsep secara praktis dan aplikatif.</p>
+                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="blog-item ">
+            <div class="blog-img rounded-top">
+                <img src="assets/img/jurnal.png" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-1 px-4">
+                    <span>Jurnal</span>
+                </div>
+            </div>
+            <div class="blog-content p-4">
+                <div class="blog-comment d-flex justify-content-between mb-2">
+                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
+                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
+                </div>
+                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
+                <p class="mb-3">Jurnal ini memuat hasil penelitian terbaru yang relevan di bidangnya, 
+                disusun dengan metodologi yang jelas dan pembahasan yang komprehensif.</p>
+                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="blog-item">
+            <div class="blog-img rounded-top">
+                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-1 px-4">
+                    <span>Buku</span>
+                </div>
+            </div>
+            <div class="blog-content p-4">
+                <div class="blog-comment d-flex justify-content-between mb-2">
+                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
+                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
+                </div>
+                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
+                <p class="mb-3">Buku ini dirancang untuk memperluas wawasan pembaca dengan penyajian materi yang 
+                terstruktur, jelas, dan mudah dipahami oleh berbagai kalangan.</p>
+                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="blog-item">
+            <div class="blog-img rounded-top">
+                <img src="assets/img/buku1.png" class="img-fluid rounded-top w-100" alt="">
+                <div class="blog-categiry py-1 px-4">
+                    <span>Buku</span>
+                </div>
+            </div>
+            <div class="blog-content p-4">
+                <div class="blog-comment d-flex justify-content-between mb-2">
+                    <div class="small"><i class="bi bi-person-lines-fill text-primary"></i></span> Martin.C</div>
+                    <div class="small"><i class="bi bi-calendar-range text-primary"></i></span> 30 Dec 2025</div>
+                </div>
+                <a href="#" class="h5 d-inline-block mb-3">Leverage agile frameworks to provide</a>
+                <p class="mb-3">Buku ini memberikan panduan praktis yang dapat langsung diterapkan, 
+                cocok untuk pembelajar maupun praktisi yang ingin meningkatkan keterampilan.</p>
+                <a href="#" class="p-0">Read More  <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
                 <a href="" class="btn btn-primary rounded-pill py-2 px-5 mt-4 m-auto text-center wow fadeInUp" data-wow-delay="0.8s" >Berita Lainnya</a>
             </div>
         </div>

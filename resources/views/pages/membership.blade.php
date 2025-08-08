@@ -15,7 +15,7 @@
 </div>
 
 
-<div class="container-fluid bg-light py-5">
+<div class="container-fluid bg-light py-5" id="membership">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h2 class="display-5 mb-3">Pilih Paket yang Tepat Untuk Anda</h2>

@@ -13,8 +13,11 @@
                 <div class="navbar-nav mx-0 mx-lg-auto">
                     <a href="{{ route('home') }}"
                         class="nav-item nav-link {{ ($title ?? '') === 'Home' ? 'active' : '' }}">Beranda</a>
-                    <a href="{{ route('about') }}"
-                        class="nav-item nav-link {{ ($title ?? '') === 'About' ? 'active' : '' }}">Tentang</a>
+                    <a href="{{ route('about') }}#visi-misi"
+                        class="nav-item nav-link {{ ($title ?? '') === 'About' ? 'active' : '' }}">
+                        Tentang
+                    </a>
+
                     <a href="{{ route('service') }}"
                         class="nav-item nav-link {{ ($title ?? '') === 'Service' ? 'active' : '' }}">Layanan</a>
                     <!-- <a href="{{ route('home') }}" class="nav-item nav-link">Book</a> -->
@@ -27,8 +30,8 @@
                         <div class="dropdown-menu">
                             <a href="{{ route('buku') }}"
                                 class="dropdown-item {{ in_array($title ?? '', ['Buku', 'Detail Buku']) ? 'active' : '' }}">Buku</a>
-                            <a href="{{ route('jurnal') }}" 
-                            class="dropdown-item {{ in_array($title ?? '', ['Jurnal', 'Detail Jurnal']) ? 'active' : '' }}">Jurnal</a>
+                            <a href="{{ route('jurnal') }}"
+                                class="dropdown-item {{ in_array($title ?? '', ['Jurnal', 'Detail Jurnal']) ? 'active' : '' }}">Jurnal</a>
                             <!-- <a href="{{ route('home') }}" class="dropdown-item">Penyuntingan Naskah</a>
                             <a href="{{ route('home') }}" class="dropdown-item">Desain Gragis & Ilustrasi</a>
                             <a href="{{ route('home') }}" class="dropdown-item">Translate & Proofreading</a> -->
@@ -42,13 +45,13 @@
                             <span class="dropdown-toggle">Bantuan</span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="{{ route('petunjuk-penulis') }}"
+                            <a href="{{ route('petunjuk-penulis') }}#petunjuk-penulis"
                                 class="dropdown-item {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}">Petunjuk
                                 Penulis</a>
-                            <a href="{{ route('ircs-journal') }}"
+                            <a href="{{ route('ircs-journal') }}#ircs-journal"
                                 class="dropdown-item {{ ($title ?? '') === 'IRCS Journal' ? 'active' : '' }}">IRCS
                                 Jurnal</a>
-                            <a href="{{ route('contact') }}"
+                            <a href="{{ route('contact') }}#contact"
                                 class="dropdown-item {{ ($title ?? '') === 'Contact' ? 'active' : '' }}">Kontak</a>
                         </div>
                     </div>
@@ -103,19 +106,21 @@
 <!-- Modal Search End -->
 
 
-<div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+<div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="authModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content overflow-hidden border-0 rounded-4">
-            
+
             <div class="auth-container">
                 <div class="auth-flipper">
-                    
+
                     <div class="auth-panel auth-panel-front">
                         <div class="row g-0">
                             <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
                             <div class="col-lg-6">
                                 <div class="modal-body p-4 p-sm-5">
-                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
                                     <div class="text-center mb-4">
                                         <img src="assets/img/logo/logo-text.webp" alt="Logo" width="72">
                                         <h2 class="fw-bold mt-3 mb-2">Selamat Datang!</h2>
@@ -123,15 +128,18 @@
                                     </div>
                                     <form>
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="loginEmail" placeholder="nama@email.com">
+                                            <input type="email" class="form-control" id="loginEmail"
+                                                placeholder="nama@email.com">
                                             <label for="loginEmail">Alamat Email</label>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                                            <input type="password" class="form-control" id="loginPassword"
+                                                placeholder="Password">
                                             <label for="loginPassword">Password</label>
                                         </div>
                                         <div class="d-grid mb-3">
-                                            <button type="submit" class="btn btn-primary btn-lg rounded-pill fw-bold">Masuk</button>
+                                            <button type="submit"
+                                                class="btn btn-primary btn-lg rounded-pill fw-bold">Masuk</button>
                                         </div>
                                     </form>
 
@@ -142,12 +150,14 @@
                                     </div>
                                     <div class="d-grid">
                                         <button type="button" class="btn btn-light border w-100 py-2 rounded-pill">
-                                            <img src="https://www.google.com/favicon.ico" alt="Google icon" class="me-2" style="width: 16px;">
+                                            <img src="https://www.google.com/favicon.ico" alt="Google icon" class="me-2"
+                                                style="width: 16px;">
                                             Masuk dengan Google
                                         </button>
                                     </div>
                                     <div class="text-center mt-4">
-                                        <p class="text-muted small">Belum punya akun? <a href="#" id="showRegister" class="fw-bold text-decoration-none">Daftar di sini</a></p>
+                                        <p class="text-muted small">Belum punya akun? <a href="#" id="showRegister"
+                                                class="fw-bold text-decoration-none">Daftar di sini</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +168,8 @@
                         <div class="row g-0">
                             <div class="col-lg-6">
                                 <div class="modal-body p-4 p-sm-5">
-                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
                                     <div class="text-center mb-4">
                                         <img src="assets/img/logo/logo-text.webp" alt="Logo" width="72">
                                         <h2 class="fw-bold mt-3 mb-2">Buat Akun Baru</h2>
@@ -186,7 +197,8 @@
                                             <label>Alamat</label>
                                         </div> -->
                                         <div class="d-grid mb-3">
-                                            <button type="submit" class="btn btn-primary btn-lg rounded-pill fw-bold">Daftar</button>
+                                            <button type="submit"
+                                                class="btn btn-primary btn-lg rounded-pill fw-bold">Daftar</button>
                                         </div>
                                     </form>
 
@@ -197,12 +209,14 @@
                                     </div>
                                     <div class="d-grid">
                                         <button type="button" class="btn btn-light border w-100 py-2 rounded-pill">
-                                            <img src="https://www.google.com/favicon.ico" alt="Google icon" class="me-2" style="width: 16px;">
+                                            <img src="https://www.google.com/favicon.ico" alt="Google icon" class="me-2"
+                                                style="width: 16px;">
                                             Daftar dengan Google
                                         </button>
                                     </div>
                                     <div class="text-center mt-4">
-                                        <p class="text-muted small">Sudah punya akun? <a href="#" id="showLogin" class="fw-bold text-decoration-none">Masuk di sini</a></p>
+                                        <p class="text-muted small">Sudah punya akun? <a href="#" id="showLogin"
+                                                class="fw-bold text-decoration-none">Masuk di sini</a></p>
                                     </div>
                                 </div>
                             </div>

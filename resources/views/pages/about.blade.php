@@ -20,9 +20,9 @@
 
         <!-- About Start -->
         <div class="container-fluid bg-light about pb-5 mt-5">
-            <div class="container pb-5 mt-5">
-                <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="container pb-5 mt-5" >
+                <div class="row g-5" id="visi-misi">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s" >
                         <div class="about-item-content bg-white rounded p-5 h-100">
                             <h4 class="text-primary">Tentang Kami</h4>
                             <h1 class="display-4 mb-4">VISI & MISI</h1>
@@ -110,7 +110,7 @@
                             <h4 class="mb-4">Penerbitan Buku</h4>
                             <p class="mb-4">Kami menyediakan layanan penerbitan buku lengkap, mulai dari penyuntingan, tata letak, desain grafis, hingga penerbitan ber-ISBN
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Petunjuk Penulis' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}#petunjuk-penulis">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
@@ -119,10 +119,10 @@
                                 <i class="fas fa-newspaper fa-3x"></i>
                             </div>
                             <h4 class="mb-4">Penerbitan Jurnal</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
-                                pariatur...
+                            <p class="mb-4"> Kami menyediakan layanan penerbitan jurnal ilmiah yang profesional, mulai dari proses penyuntingan, tata letak, hingga pendaftaran ISSN. 
+    Tim kami siap membantu penulis dan peneliti dalam mempublikasikan hasil karya ilmiahnya agar dapat diakses secara luas dan diakui secara akademik.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="{{ route('ircs-journal') }}#ircs-journal">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -134,7 +134,7 @@
                             <p class="mb-4">
                                 Bergabunglah dengan komunitas kami untuk mendapatkan akses ke berbagai layanan dan sumber daya penerbitan. Dapatkan keuntungan eksklusif sebagai anggota.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('petunjuk-penulis') }}">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 {{ ($title ?? '') === 'Membership' ? 'active' : '' }}" href="{{ route('membership') }}#petunjuk-penulis">Learn More</a>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
